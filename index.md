@@ -1,4 +1,6 @@
-# Xiaoyu Yuan's Portfolio
+---
+title: Xiaoyu Yuan's Portfolio
+---
 
 ## About Me
 Hi! I'm Xiaoyu, a master's student at Helsinki University. I specialize in AI, SLAM, and computer vision.

@@ -11,6 +11,6 @@ Hi! I'm Xiaoyu, a master's student at Helsinki University. I specialize in AI, S
 - [AI + BII - Image Inpainting for Cultural Heritage](#)
 
 ## Contact
-- [LinkedIn](#)
-- [GitHub](#)
+- [LinkedIn](https://www.linkedin.com/in/xiaoyuyuan19/)
+- [GitHub](https://github.com/XiaoyuYuan19)
 

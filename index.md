@@ -7,7 +7,7 @@ Hi! I'm Xiaoyu, a master's student at Helsinki University. I specialize in AI, S
 
 ## Projects
 - [HoumaOCR - Ancient Character Recognition](#)
-- [SLAM for GI Navigation](#)
+- [SLAM for GI Navigation](https://github.com/XiaoyuYuan19/AI-BII)
 - [AI + BII - Image Inpainting for Cultural Heritage](#)
 
 ## Contact

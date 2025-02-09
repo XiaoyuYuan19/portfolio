@@ -95,22 +95,3 @@ th {
     font-weight: bold;
 }
 
-
-/* 🌙 夜间模式悬浮按钮 */
-#dark-mode-toggle {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background: #ffffff;
-    color: #222;
-    border: 1px solid #ccc;
-    padding: 10px 15px;
-    font-size: 18px;
-    border-radius: 50%;
-    cursor: pointer;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-#dark-mode-toggle:hover {
-    background: #222;
-    color: #ffffff;
-}

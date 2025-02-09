@@ -25,6 +25,9 @@ A collection of my work in **AI, deep learning, and software development**.
 ### [{{ project.title }}]({{ project.url }})
 📝 {{ project.description }}  
 🔗 [GitHub]({{ project.github }}) | 🎥 [YouTube]({{ project.youtube }})
+
+#### Project Details
+{{ project.details }}
 {% endfor %}
 
 ---
@@ -36,6 +39,9 @@ Academic papers and conference proceedings:
 ### [{{ paper.title }}]({{ paper.url }})
 📄 {{ paper.description }}  
 🔗 [Publication Link]({{ paper.link }})
+
+#### Paper Abstract
+{{ paper.abstract }}
 {% endfor %}
 
 ---

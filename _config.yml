@@ -8,3 +8,11 @@ header_pages:
   - projects.md
   - publications.md
   - contact.md
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+  publications:
+    output: true
+    permalink: /publications/:name/

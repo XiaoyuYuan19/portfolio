@@ -12,3 +12,11 @@ details: |
   - **Network visualization using D3.js**
   - **Integration with 500,000+ research papers**
 ---
+
+# {{ page.title }}
+
+📝 **{{ page.description }}**  
+🔗 **[GitHub]({{ page.github }})** | 🎥 **[YouTube]({{ page.youtube }})**
+
+## Project Overview
+{{ page.details }}

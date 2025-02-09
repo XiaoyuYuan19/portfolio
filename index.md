@@ -1,5 +1,5 @@
 ---
-title: "Xiaoyu Yuan | Personal Portfolio"
+title: "Xiaoyu Yuan"
 description: "A showcase of AI research, projects, and academic contributions."
 layout: default
 ---
@@ -15,31 +15,3 @@ I'm a **Computer Science Master's student** at the **University of Helsinki**, s
 
 🔗 **Find me online:**  
 - [GitHub](https://github.com/XiaoyuYuan19) | [LinkedIn](https://www.linkedin.com/in/xiaoyuyuan19) | [Email](mailto:xiaoyuyuan19@gmail.com)
-
----
-
-## Projects
-A collection of my work in **AI, deep learning, and software development**.
-
-{% for project in site.projects %}
-### [{{ project.title }}]({{ project.url | relative_url }})
-📝 {{ project.description }}  
-🔗 [GitHub]({{ project.github }}) | 🎥 [YouTube]({{ project.youtube }})  
-{% endfor %}
-
----
-
-## Publications
-Academic papers and conference proceedings:
-
-{% for paper in site.publications %}
-### [{{ paper.title }}]({{ paper.url | relative_url }})
-📄 {{ paper.description }}  
-🔗 [Read More]({{ paper.url | relative_url }})  
-{% endfor %}
-
----
-
-## Contact
-📧 Email: [xiaoyuyuan19@gmail.com](mailto:xiaoyuyuan19@gmail.com)  
-📌 University: [Helsinki.fi](https://www.helsinki.fi/en)

@@ -21,31 +21,22 @@ I'm a **Computer Science Master's student** at the **University of Helsinki**, s
 ## Projects
 A collection of my work in **AI, deep learning, and software development**.
 
-### [Houma Alliance Book Ancient Character Recognition](https://houmaocr.ddns.net/)
-- **Research on OCR for ancient scripts**
-- **Published in ICMSSP 2023** ([Paper](https://dl.acm.org/doi/10.1145/3613917.3613923))
-- **GitHub Repository**: [Here](https://github.com/XiaoyuYuan19)
-
-### [AI+BII: Building Image Inpainting for Cultural Heritage Restoration](https://www.youtube.com/watch?v=k_lfRbl8zzY)
-- **Developed a self-learning LLM for ancient architecture restoration**
-- **Integrated Stable Diffusion inpainting techniques**
-- **GitHub Repository**: [Here](https://github.com/XiaoyuYuan19/AI-BII)
-
-### [DSPaperUniverse Platform: Academic Literature Visualization](https://www.youtube.com/watch?v=vBVPZlLWp8o)
-- **Built an interactive citation graph for academic research**
-- **Supports network analysis of 500,000+ papers**
-- **GitHub Repository**: [Here](https://github.com/XiaoyuYuan19/DSPaperUniverse)
-
-### [SaaS-based Human Resource Management System (HRMS)](https://github.com/XiaoyuYuan19/Saas-HRMS)
-- **Developed a scalable HR management system**
-- **Implemented secure multi-user access with RBAC**
+{% for project in site.projects %}
+### [{{ project.title }}]({{ project.url }})
+📝 {{ project.description }}  
+🔗 [GitHub]({{ project.github }}) | 🎥 [YouTube]({{ project.youtube }})
+{% endfor %}
 
 ---
 
 ## Publications
 Academic papers and conference proceedings:
-- **Houma Alliance Book OCR** - [ICMSSP 2023](https://dl.acm.org/doi/10.1145/3613917.3613923)
-- **Houma Alliance Book Facsimiles** - [IEEE 2022](https://ieeexplore.ieee.org/document/10269984)
+
+{% for paper in site.publications %}
+### [{{ paper.title }}]({{ paper.url }})
+📄 {{ paper.description }}  
+🔗 [Publication Link]({{ paper.link }})
+{% endfor %}
 
 ---
 

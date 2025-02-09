@@ -18,7 +18,7 @@ body {
 }
 
 /* 🌙 让夜间模式的导航栏变得更适配 🌙 */
-.dark-mode nav ul{
+.dark-mode nav {
     background-color: #1c1f2b; /* 深色学术风背景 */
     border-bottom: 2px solid #3c3f4a;
 }

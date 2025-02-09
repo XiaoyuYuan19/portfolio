@@ -114,3 +114,9 @@ th {
     background: #ddd;
     font-weight: bold;
 }
+
+/* 🌙 夜间模式 🌙 */
+.dark-mode {
+    background: #121212;
+    color: #ffffff;
+}

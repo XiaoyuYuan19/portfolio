@@ -1,5 +1,5 @@
 ---
-title: DSPaperUniverse: Academic Literature Visualization
+title: DSPaperUniverse - Academic Literature Visualization
 description: A visualization tool for exploring research trends.
 github: https://github.com/XiaoyuYuan19/DSPaperUniverse
 youtube: https://www.youtube.com/watch?v=vBVPZlLWp8o

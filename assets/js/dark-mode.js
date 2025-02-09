@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
     const toggle = document.getElementById("dark-mode-toggle");
-    if (!toggle) return; // 避免按钮不存在时出错
+    if (!toggle) return; // 避免按钮不存在时报错
 
     toggle.addEventListener("click", function() {
         document.body.classList.toggle("dark-mode");

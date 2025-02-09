@@ -17,19 +17,20 @@ body {
     color: #e0e0e0;
 }
 
-/* 🌙 让夜间模式的导航栏更适配 🌙 */
+/* 🌙 让夜间模式的导航栏变得更适配 🌙 */
 .dark-mode nav {
-    background-color: #1a1a2e; /* 深蓝色科技感背景 */
-    border-bottom: 2px solid #555;
+    background-color: #1c1f2b; /* 深色学术风背景 */
+    border-bottom: 2px solid #3c3f4a;
 }
 
 .dark-mode nav ul li a {
-    color: #80d0ff; /* 让导航栏的链接变成柔和的天蓝色 */
+    color: #d1d5e0; /* 让导航栏的链接变成冷淡风灰蓝色 */
 }
 
 .dark-mode nav ul li a:hover {
-    color: #00aaff; /* 鼠标悬停时变亮一点 */
+    color: #ffffff; /* 鼠标悬停时变成白色 */
 }
+
 
 .dark-mode h1, 
 .dark-mode h2, 
@@ -38,14 +39,15 @@ body {
     border-bottom: 2px solid #555;
 }
 
-/* 让超链接的颜色更柔和 */
+/* 🎓 夜间模式的学术风链接 🎓 */
 .dark-mode a {
-    color: #87CEFA; /* 科技感蓝色 */
+    color: #9ea7bf; /* 低饱和度的蓝灰色，偏学术冷淡风 */
 }
 
 .dark-mode a:hover {
-    color: #00BFFF; /* 悬停时稍微亮一点 */
+    color: #cdd3e3; /* 悬停时变浅一点 */
 }
+
 
 /* ✨ 让鼠标尾巴变成星星 ✨ */
 /* ✨ 让鼠标拖尾变得更柔和 ✨ */

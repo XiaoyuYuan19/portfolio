@@ -13,23 +13,29 @@ body {
 
 /* 🌙 夜间模式修正：让标题和链接也变浅色 🌙 */
 .dark-mode {
-    background: #121212;
-    color: #ffffff;
+    background: linear-gradient(135deg, #0f0f1a, #1a1a2e, #22264b);
+    color: #e0e0e0;
+}
+
+/* 🌙 让夜间模式的导航栏更适配 🌙 */
+.dark-mode nav {
+    background-color: #1a1a2e; /* 深蓝色科技感背景 */
+    border-bottom: 2px solid #555;
+}
+
+.dark-mode nav ul li a {
+    color: #80d0ff; /* 让导航栏的链接变成柔和的天蓝色 */
+}
+
+.dark-mode nav ul li a:hover {
+    color: #00aaff; /* 鼠标悬停时变亮一点 */
 }
 
 .dark-mode h1, 
 .dark-mode h2, 
 .dark-mode h3 {
-    color: #ffffff; /* 让标题变白 */
-    border-bottom: 2px solid #666; /* 让下划线颜色变浅，避免过亮 */
-}
-
-.dark-mode a {
-    color: #87CEFA; /* 让链接变成柔和的天蓝色 */
-}
-
-.dark-mode a:hover {
-    color: #00BFFF; /* 鼠标悬停时，颜色稍微亮一点 */
+    color: #ffffff;
+    border-bottom: 2px solid #555;
 }
 
 

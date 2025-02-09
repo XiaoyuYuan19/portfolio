@@ -6,4 +6,3 @@ document.addEventListener("mousemove", function(e) {
     document.body.appendChild(star);
     setTimeout(() => { star.remove(); }, 500);
 });
-

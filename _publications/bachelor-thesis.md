@@ -16,4 +16,4 @@ abstract: |
 🔗 **[GitHub]({{ page.github }})** | 🎥 **[YouTube]({{ page.youtube }})**
 
 ## Project Overview
-{{ page.details }}
+{{ page.abstract }}

@@ -15,6 +15,10 @@ document.addEventListener("mousemove", function(e) {
                        "rgba(160, 190, 255, 0.8)",  // 淡蓝紫色
                        "rgba(140, 160, 255, 0.9)",  // 深夜蓝色
                        "rgba(255, 250, 200, 0.9)",  // 柔和暖白
+                       "rgba(230, 230, 250, 0.9)", 
+                       "rgba(211, 211, 255, 0.9)", 
+                       "rgba(255, 248, 220, 0.9)", 
+                       "rgba(200, 230, 255, 0.9)",
                        "rgba(210, 210, 255, 0.8)"]; // 梦幻紫蓝色
 
     let glow = nightColors[Math.floor(Math.random() * nightColors.length)];

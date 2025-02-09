@@ -7,7 +7,7 @@ document.addEventListener("mousemove", function(e) {
     star.style.top = `${e.clientY}px`;
 
     // 让星星有不同大小（8px ~ 20px）
-    let size = Math.floor(Math.random() * 12) + 8;
+    let size = Math.floor(Math.random() * 12) + 0.5;
     star.style.fontSize = `${size}px`;
 
     // 让夜间模式的星星更符合背景色

@@ -1,1 +1,10 @@
 theme: minima
+title: Xiaoyu Yuan | Academic Portfolio
+description: "A showcase of AI research, projects, and academic contributions."
+
+# Add Navigation Menu
+header_pages:
+  - index.md
+  - projects.md
+  - publications.md
+  - contact.md

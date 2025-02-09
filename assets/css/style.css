@@ -12,6 +12,11 @@ body {
 }
 
 /* 🌙 夜间模式修正：让标题和链接也变浅色 🌙 */
+.dark-mode {
+    background: #121212;
+    color: #ffffff;
+}
+
 .dark-mode h1, 
 .dark-mode h2, 
 .dark-mode h3 {

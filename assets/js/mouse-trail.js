@@ -7,12 +7,17 @@ document.addEventListener("mousemove", function(e) {
     star.style.top = `${e.clientY}px`;
 
     // 让星星有不同大小（8px ~ 20px）
-    let size = Math.floor(Math.random() * 12) + 0.5;
+    let size = Math.floor(Math.random() * 12) + 8;
     star.style.fontSize = `${size}px`;
 
-    // 让星星有低饱和度的柔和颜色
-    let colors = ["rgba(230, 230, 250, 0.9)", "rgba(211, 211, 255, 0.9)", "rgba(255, 248, 220, 0.9)", "rgba(200, 230, 255, 0.9)"];
-    let glow = colors[Math.floor(Math.random() * colors.length)];
+    // 让夜间模式的星星更符合背景色
+    let nightColors = ["rgba(180, 200, 255, 0.9)",  // 柔和夜蓝色
+                       "rgba(160, 190, 255, 0.8)",  // 淡蓝紫色
+                       "rgba(140, 160, 255, 0.9)",  // 深夜蓝色
+                       "rgba(255, 250, 200, 0.9)",  // 柔和暖白
+                       "rgba(210, 210, 255, 0.8)"]; // 梦幻紫蓝色
+
+    let glow = nightColors[Math.floor(Math.random() * nightColors.length)];
     star.style.color = glow;
     star.style.textShadow = `0 0 6px ${glow}, 0 0 12px ${glow}`;
 

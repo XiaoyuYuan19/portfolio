@@ -6,7 +6,7 @@ permalink: /projects/
 ---
 
 # Projects
-
+ 
 Here is a list of my major projects.
 
 {% for project in site.projects %}

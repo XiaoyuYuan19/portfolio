@@ -1,0 +1,56 @@
+/* 设置全局学术风格 */
+body {
+  font-family: 'Georgia', serif;
+  background-color: #ffffff;
+  color: #222222;
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.8;
+}
+
+/* 论文风格标题 */
+h1, h2, h3 {
+  font-family: 'Times New Roman', serif;
+  font-weight: bold;
+  color: #333333;
+  text-align: left;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 5px;
+}
+
+/* 超链接变蓝色 */
+a {
+  color: #0044cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* 代码块风格 */
+pre {
+  background-color: #111111;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: 'Courier New', monospace;
+}
+
+/* 论文风格表格 */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px 0;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+}

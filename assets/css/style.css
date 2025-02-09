@@ -50,26 +50,22 @@ body {
 
 
 /* ✨ 让鼠标尾巴变成星星 ✨ */
-/* ✨ 让鼠标拖尾变得更柔和 ✨ */
-/* 🌟 让鼠标尾巴的星星更梦幻 🌟 */
+/* 🌟 SVG 画出的真实五角星 🌟 */
 .star {
     position: absolute;
-    width: 8px;
-    height: 8px;
-    background: radial-gradient(circle, rgba(255, 255, 255, 0.9) 20%, rgba(173, 216, 230, 0.7) 60%, transparent 100%);
-    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="gold"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>');
+    background-size: cover;
     pointer-events: none;
-    box-shadow: 0 0 8px rgba(173, 216, 230, 0.8), 0 0 12px rgba(255, 182, 193, 0.6), 0 0 18px rgba(144, 238, 144, 0.5);
     animation: fadeOut 1s ease-out;
 }
 
-/* 🌠 让星星变成不同的颜色，每次生成随机变化 🌠 */
+/* 让星星消失得更柔和 */
 @keyframes fadeOut {
     from { opacity: 1; transform: scale(1); }
-    to { opacity: 0; transform: scale(1.5); }
+    to { opacity: 0; transform: scale(1.2); }
 }
-
-
 
 /* 🌙 夜间模式悬浮按钮 */
 #dark-mode-toggle {

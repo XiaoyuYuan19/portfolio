@@ -1,5 +1,5 @@
 /* 学术风格（白大褂禁欲系） */
-body {/* 🌟 星空渐变背景 🌟 */
+body {
     background: linear-gradient(120deg, #1e1e2f, #3a2b5c, #5b3b78);
     background-attachment: fixed;
     color: #f0f0f0;

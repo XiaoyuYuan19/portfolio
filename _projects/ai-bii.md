@@ -13,3 +13,11 @@ details: |
   - **Over 1,000 historical images processed**
   - **Integrated Hugging Face API for inference**
 ---
+
+# {{ page.title }}
+
+📝 **{{ page.description }}**  
+🔗 **[GitHub]({{ page.github }})** | 🎥 **[YouTube]({{ page.youtube }})**
+
+## Project Overview
+{{ page.details }}

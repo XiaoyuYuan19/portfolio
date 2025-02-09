@@ -6,27 +6,15 @@ document.addEventListener("mousemove", function(e) {
     star.style.left = `${e.clientX}px`;
     star.style.top = `${e.clientY}px`;
 
-    // 判断是否是夜间模式
-    let isDarkMode = document.body.classList.contains("dark-mode");
-
-    // 适配不同模式的颜色
-    let dayColors = ["rgba(200, 200, 255, 0.8)", "rgba(190, 190, 255, 0.7)", "rgba(180, 180, 250, 0.7)"];
-    let nightColors = ["rgba(255, 255, 255, 0.9)", "rgba(230, 230, 255, 0.8)", "rgba(220, 220, 250, 0.8)"];
-    let colors = isDarkMode ? nightColors : dayColors;
-    
-    let glow = colors[Math.floor(Math.random() * colors.length)];
-    star.style.color = glow;
-    star.style.textShadow = `0 0 6px ${glow}, 0 0 12px rgba(255, 255, 255, 0.7)`;
-    
     // 让星星有不同大小（8px ~ 20px）
-    let size = Math.floor(Math.random() * 12) + 0.5;
+    let size = Math.floor(Math.random() * 12) + 8;
     star.style.fontSize = `${size}px`;
 
-    // 让星星有“低饱和度的亮色”
-    let colors = ["rgba(255, 255, 255, 0.9)", "rgba(230, 230, 255, 0.8)", "rgba(220, 220, 250, 0.8)"];
+    // 让星星有低饱和度的柔和颜色
+    let colors = ["rgba(230, 230, 250, 0.9)", "rgba(211, 211, 255, 0.9)", "rgba(255, 248, 220, 0.9)", "rgba(200, 230, 255, 0.9)"];
     let glow = colors[Math.floor(Math.random() * colors.length)];
     star.style.color = glow;
-    star.style.textShadow = `0 0 6px ${glow}, 0 0 12px rgba(255, 255, 255, 0.7)`;
+    star.style.textShadow = `0 0 6px ${glow}, 0 0 12px ${glow}`;
 
     // 让星星的消失时间随机（0.8s - 1.5s）
     let duration = (Math.random() * 0.7 + 0.8).toFixed(2);

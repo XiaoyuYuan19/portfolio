@@ -1,6 +1,5 @@
 theme: minima
-sass:
-  style: compressed
+layouts_dir: _layouts
 title: Xiaoyu Yuan | Academic Portfolio
 description: "A showcase of AI research, projects, and academic contributions."
 

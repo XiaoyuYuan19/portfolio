@@ -1,5 +1,5 @@
 ---
-title: "Xiaoyu Yuan | Personal Portfolio"
+title: "Xiaoyu Yuan"
 description: "A showcase of AI research, projects, and academic contributions."
 layout: default
 ---

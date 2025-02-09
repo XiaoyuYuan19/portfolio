@@ -8,3 +8,11 @@ abstract: |
   historical images. Using GANs and Stable Diffusion, we enhance low-quality
   scans of ancient artifacts, ensuring better preservation.
 ---
+
+# {{ page.title }}
+
+📝 **{{ page.description }}**  
+🔗 **[GitHub]({{ page.github }})** | 🎥 **[YouTube]({{ page.youtube }})**
+
+## Project Overview
+{{ page.details }}

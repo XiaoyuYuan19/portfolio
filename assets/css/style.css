@@ -17,6 +17,39 @@ h1, h2, h3 {
     padding-bottom: 5px;
 }
 
+/* 🌟 让导航栏变成横向菜单 🌟 */
+nav ul {
+    list-style: none;  /* 移除默认的列表样式 */
+    padding: 0;
+    margin: 0;
+    display: flex; /* 让导航栏变成“横向排列” */
+    justify-content: center; /* 居中对齐 */
+    background-color: #eee; /* 浅灰色背景 */
+    padding: 10px 0; /* 给导航栏一点内边距 */
+    border-radius: 10px; /* 让导航栏边角变圆润 */
+}
+
+/* 让导航栏里的每个链接变得更整洁 */
+nav ul li {
+    margin: 0 15px; /* 每个菜单项之间留出空隙 */
+}
+
+/* 让导航栏的链接更明显 */
+nav ul li a {
+    text-decoration: none;
+    color: #0044cc;
+    font-weight: bold;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+/* 鼠标悬停时变色 */
+nav ul li a:hover {
+    background-color: #0044cc;
+    color: #fff;
+    transition: 0.3s;
+}
+
 /* 超链接变蓝色，符合论文风 */
 a {
     color: #0044cc;

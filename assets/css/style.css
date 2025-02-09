@@ -11,11 +11,22 @@ body {
     line-height: 1.8;
 }
 
-/* 🌙 夜间模式 🌙 */
-.dark-mode {
-    background: #121212;
-    color: #ffffff;
+/* 🌙 夜间模式修正：让标题和链接也变浅色 🌙 */
+.dark-mode h1, 
+.dark-mode h2, 
+.dark-mode h3 {
+    color: #ffffff; /* 让标题变白 */
+    border-bottom: 2px solid #666; /* 让下划线颜色变浅，避免过亮 */
 }
+
+.dark-mode a {
+    color: #87CEFA; /* 让链接变成柔和的天蓝色 */
+}
+
+.dark-mode a:hover {
+    color: #00BFFF; /* 鼠标悬停时，颜色稍微亮一点 */
+}
+
 
 /* ✨ 让鼠标尾巴变成星星 ✨ */
 .star {

@@ -1,5 +1,6 @@
 ---
 title: Bachelor's Thesis - AI-Based Image Inpainting
+layout: default
 description: Research on AI-assisted cultural heritage restoration.
 url: /publications/bachelor-thesis/
 link: none 

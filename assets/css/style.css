@@ -38,6 +38,14 @@ body {
     border-bottom: 2px solid #555;
 }
 
+/* 让超链接的颜色更柔和 */
+.dark-mode a {
+    color: #87CEFA; /* 科技感蓝色 */
+}
+
+.dark-mode a:hover {
+    color: #00BFFF; /* 悬停时稍微亮一点 */
+}
 
 /* ✨ 让鼠标尾巴变成星星 ✨ */
 /* ✨ 让鼠标拖尾变得更柔和 ✨ */

@@ -1,37 +1,20 @@
 /* 学术风格（白大褂禁欲系） */
 body {
-    opacity: 0;
-    animation: fadeIn 1s ease-in forwards;
-
     background: linear-gradient(120deg, #fefefe, #f5f7fa, #e6ecf0);
     background-attachment: fixed;
-    color: #222; /* 让正文颜色深一点，适合浅色背景 */
-    
+    color: #222;
     font-family: "Times New Roman", serif;
     max-width: 800px;
     margin: 40px auto;
     padding: 20px;
-    background-color: #f9f9f9;
     line-height: 1.8;
 }
 
-/* ✨ 鼠标星星尾巴 ✨ */
-.star {
-    position: absolute;
-    width: 5px;
-    height: 5px;
-    background: #ffd700;
-    border-radius: 50%;
-    pointer-events: none;
-    box-shadow: 0 0 5px #ffd700;
-    animation: fadeOut 0.5s ease-out;
+/* 🌙 夜间模式 🌙 */
+.dark-mode {
+    background: #121212;
+    color: #ffffff;
 }
-
-@keyframes fadeOut {
-    from { opacity: 1; transform: scale(1); }
-    to { opacity: 0; transform: scale(2); }
-}
-
 
 /* 标题加粗，严谨风 */
 h1, h2, h3 {
@@ -110,10 +93,4 @@ th, td {
 th {
     background: #ddd;
     font-weight: bold;
-}
-
-/* 🌙 夜间模式 🌙 */
-.dark-mode {
-    background: #121212;
-    color: #ffffff;
 }

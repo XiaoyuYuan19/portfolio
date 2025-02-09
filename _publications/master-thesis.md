@@ -8,3 +8,11 @@ abstract: |
   lesion detection in endoscopy. The project integrates self-supervised learning
   to improve localization in constrained environments.
 ---
+
+# {{ page.title }}
+
+📝 **{{ page.description }}**  
+🔗 **[GitHub]({{ page.github }})** | 🎥 **[YouTube]({{ page.youtube }})**
+
+## Project Overview
+{{ page.details }}

@@ -1,5 +1,6 @@
 ---
 title: Master's Thesis - High-Precision Visual SLAM for Endoscopy
+layout: default
 description: Deep-learning-based SLAM enhancements for medical navigation.
 link: none
 url: publications/master-thesis

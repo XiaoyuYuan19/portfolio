@@ -9,7 +9,7 @@ permalink: /projects/
 Here is a list of my major projects.
 
 {% for project in site.projects %}
-## [{{ project.title }}]({{ project.url }})
+## [{{ project.title }}](/projects/{{ project.url }})
 📝 {{ project.description }}  
 🔗 [GitHub]({{ project.github }}) | 🎥 [YouTube]({{ project.youtube }})  
 {% endfor %}

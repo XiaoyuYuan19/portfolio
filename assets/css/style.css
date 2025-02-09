@@ -48,21 +48,28 @@ body {
     color: #cdd3e3; /* 悬停时变浅一点 */
 }
 
-/* 🌟 让鼠标尾巴的星星变得更梦幻 🌟 */
+/* 🌟 让鼠标拖尾的星星随机旋转 🌟 */
 .star {
     position: absolute;
-    font-size: 12px; /* 默认大小 */
-    color: rgba(255, 223, 0, 0.8); /* 默认金色 */
+    font-size: 12px;
+    color: rgba(255, 223, 0, 0.8);
     text-shadow: 0 0 6px rgba(255, 215, 0, 0.8), 0 0 12px rgba(255, 182, 193, 0.6);
-    animation: fadeOut 1.2s ease-out;
+    animation: fadeOut 1.2s ease-out, spin 1.2s linear;
     pointer-events: none;
 }
 
-/* 让星星淡出得更自然 */
+/* ✨ 让星星淡出时更柔和 ✨ */
 @keyframes fadeOut {
     from { opacity: 1; transform: scale(1); }
     to { opacity: 0; transform: scale(1.5); }
 }
+
+/* ✨ 让星星随机旋转 ✨ */
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
 
 
 

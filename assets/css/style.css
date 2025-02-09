@@ -3,9 +3,9 @@ body {
     opacity: 0;
     animation: fadeIn 1s ease-in forwards;
 
-    background: linear-gradient(120deg, #1e1e2f, #3a2b5c, #5b3b78);
+    background: linear-gradient(120deg, #fefefe, #f5f7fa, #e6ecf0);
     background-attachment: fixed;
-    color: #f0f0f0;
+    color: #222; /* 让正文颜色深一点，适合浅色背景 */
     
     font-family: "Times New Roman", serif;
     max-width: 800px;
@@ -23,7 +23,7 @@ body {
 /* 标题加粗，严谨风 */
 h1, h2, h3 {
     font-weight: bold;
-    color: #222;
+    color: #333;
     border-bottom: 2px solid #ddd;
     padding-bottom: 5px;
 }
@@ -65,7 +65,7 @@ nav ul li {
 /* 让导航栏的链接更明显 */
 nav ul li a {
     text-decoration: none;
-    color: #0044cc;
+    color: #0056b3;
     font-weight: bold;
     padding: 8px 15px;
     border-radius: 5px;
@@ -73,18 +73,19 @@ nav ul li a {
 
 /* 鼠标悬停时变色 */
 nav ul li a:hover {
-    background-color: #0044cc;
+    background-color: #0056b3;
     color: #fff;
     transition: 0.3s;
 }
 
 /* 超链接变蓝色，符合论文风 */
 a {
-    color: #0044cc;
+    color: #0056b3;
     text-decoration: none;
 }
 
 a:hover {
+    color: #002766;
     text-decoration: underline;
 }
 

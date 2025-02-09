@@ -48,21 +48,22 @@ body {
     color: #cdd3e3; /* 悬停时变浅一点 */
 }
 
-/* 🌟 让鼠标拖尾的星星有不同大小和颜色 🌟 */
+/* 🌟 让鼠标尾巴的星星变得更梦幻 🌟 */
 .star {
     position: absolute;
-    font-size: 12px; /* 默认大小，JS 会修改 */
-    color: #FFD700;
-    text-shadow: 0 0 6px #FFD700, 0 0 12px rgba(255, 182, 193, 0.6);
-    animation: fadeOut 1s ease-out;
+    font-size: 12px; /* 默认大小 */
+    color: rgba(255, 223, 0, 0.8); /* 默认金色 */
+    text-shadow: 0 0 6px rgba(255, 215, 0, 0.8), 0 0 12px rgba(255, 182, 193, 0.6);
+    animation: fadeOut 1.2s ease-out;
     pointer-events: none;
 }
 
-/* ✨ 让星星消失得更柔和 ✨ */
+/* 让星星淡出得更自然 */
 @keyframes fadeOut {
     from { opacity: 1; transform: scale(1); }
     to { opacity: 0; transform: scale(1.5); }
 }
+
 
 
 /* 🌙 夜间模式悬浮按钮 */

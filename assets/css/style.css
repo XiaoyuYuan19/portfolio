@@ -15,28 +15,6 @@ body {
     line-height: 1.8;
 }
 
-/* 🌟 让鼠标尾巴变成梦幻星星 🌟 */
-.star {
-    position: absolute;
-    width: 8px;
-    height: 8px;
-    background: radial-gradient(circle, #fff 30%, #ffd700 70%, transparent 100%);
-    border-radius: 50%;
-    pointer-events: none;
-    box-shadow: 0 0 8px #ffd700, 0 0 15px #ffcc00;
-    animation: fadeOut 0.5s ease-out;
-    transform: rotate(45deg);
-}
-
-@keyframes fadeOut {
-    from { opacity: 1; transform: scale(1); }
-    to { opacity: 0; transform: scale(1.8); }
-}
-
-@keyframes fadeIn {
-    from { opacity: 0; }
-    to { opacity: 1; }
-}
 
 /* 标题加粗，严谨风 */
 h1, h2, h3 {
@@ -56,23 +34,6 @@ nav ul {
     background-color: #eee; /* 浅灰色背景 */
     padding: 10px 0; /* 给导航栏一点内边距 */
     border-radius: 10px; /* 让导航栏边角变圆润 */
-}
-
-/* ✨ 鼠标星星尾巴 ✨ */
-.star {
-    position: absolute;
-    width: 5px;
-    height: 5px;
-    background: #ffd700;
-    border-radius: 50%;
-    pointer-events: none;
-    box-shadow: 0 0 5px #ffd700;
-    animation: fadeOut 0.5s ease-out;
-}
-
-@keyframes fadeOut {
-    from { opacity: 1; transform: scale(1); }
-    to { opacity: 0; transform: scale(2); }
 }
 
 /* 让导航栏里的每个链接变得更整洁 */

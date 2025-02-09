@@ -1,7 +1,4 @@
 ---
-title: Xiaoyu Yuan's Portfolio
----
----
 title: "Xiaoyu Yuan | Personal Portfolio"
 description: "A showcase of AI research, projects, and academic contributions."
 layout: default

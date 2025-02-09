@@ -48,24 +48,22 @@ body {
     color: #cdd3e3; /* 悬停时变浅一点 */
 }
 
-
-/* ✨ 让鼠标尾巴变成星星 ✨ */
-/* 🌟 SVG 画出的真实五角星 🌟 */
+/* 🌟 让鼠标拖尾的星星有不同大小和颜色 🌟 */
 .star {
     position: absolute;
-    width: 12px;
-    height: 12px;
-    background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="gold"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>');
-    background-size: cover;
-    pointer-events: none;
+    font-size: 12px; /* 默认大小，JS 会修改 */
+    color: #FFD700;
+    text-shadow: 0 0 6px #FFD700, 0 0 12px rgba(255, 182, 193, 0.6);
     animation: fadeOut 1s ease-out;
+    pointer-events: none;
 }
 
-/* 让星星消失得更柔和 */
+/* ✨ 让星星消失得更柔和 ✨ */
 @keyframes fadeOut {
     from { opacity: 1; transform: scale(1); }
-    to { opacity: 0; transform: scale(1.2); }
+    to { opacity: 0; transform: scale(1.5); }
 }
+
 
 /* 🌙 夜间模式悬浮按钮 */
 #dark-mode-toggle {

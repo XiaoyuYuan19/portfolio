@@ -2,7 +2,7 @@ document.addEventListener("mousemove", function(e) {
     if (Math.random() > 0.6) return; // 限制星星数量，避免太多
     let star = document.createElement("div");
     star.className = "star";
-    star.textContent = " ⎛⎝(•ⱅ•)⎠⎞ "; // 使用星星符号
+    star.textContent = "💫"; // 使用星星符号
     star.style.left = `${e.clientX}px`;
     star.style.top = `${e.clientY}px`;
 

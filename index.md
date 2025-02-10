@@ -12,27 +12,25 @@ layout: default
 ---
 
 ## **About Me**
-<div style="display: flex; align-items: center;">
-    < img src="profile.jpg" width="150px" style="border-radius: 10px; margin-right: 20px;">
-    <p>I'm a passionate researcher in AI, OCR, and deep learning, currently pursuing my Master's degree at the University of Helsinki. My work focuses on leveraging machine learning to analyze and restore ancient texts, as well as applying AI in medical SLAM for autonomous navigation.</p >
-</div>
+![Profile Picture](profile.jpg){: width="150px" style="border-radius: 10px; float: left; margin-right: 15px;"}  
+I'm a passionate researcher in AI, OCR, and deep learning, currently pursuing my Master's degree at the University of Helsinki. My work focuses on leveraging machine learning to analyze and restore ancient texts, as well as applying AI in medical SLAM for autonomous navigation.
 
 ---
 
 ## **Research Interests**
-📌 **Machine Learning** – Deep Learning, Transformer Models  
-📌 **OCR & NLP** – Text Recognition, Historical Document Processing  
-📌 **Computer Vision** – Image Restoration, 3D Reconstruction  
-📌 **Medical AI** – SLAM-based Endoscopy, AI for Healthcare  
+- 🔥 **Machine Learning** – Deep Learning, Transformer Models
+- 📝 **OCR & NLP** – Text Recognition, Historical Document Processing
+- 🎥 **Computer Vision** – Image Restoration, 3D Reconstruction
+- 🏥 **Medical AI** – SLAM-based Endoscopy, AI for Healthcare
 
 ---
 
 ## **Projects**
-| Project | Description | GitHub |
-|---------|------------|--------|
-| **Ancient OCR** | AI-driven text recognition for historical manuscripts | [🔗 Repo](https://github.com/xxx) |
-| **Medical SLAM** | Autonomous AI-assisted navigation for endoscopy | [🔗 Repo](https://github.com/xxx) |
-| **Cultural Heritage Restoration** | Neural networks for enhancing damaged texts | [🔗 Repo](https://github.com/xxx) |
+| Project                        | Description                                           | GitHub |
+|--------------------------------|-------------------------------------------------------|--------|
+| **Ancient OCR**                | AI-driven text recognition for historical manuscripts | [📂 Repo](https://github.com/xxx) |
+| **Medical SLAM**               | Autonomous AI-assisted navigation for endoscopy      | [📂 Repo](https://github.com/xxx) |
+| **Cultural Heritage Restoration** | Neural networks for enhancing damaged texts      | [📂 Repo](https://github.com/xxx) |
 
 [📂 **More Projects**](projects.html)
 

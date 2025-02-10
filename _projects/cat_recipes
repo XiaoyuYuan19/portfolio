@@ -1,4 +1,10 @@
-
+---
+title: 猫猫食谱
+layout: default
+description: 一只捕食的流浪猫猫
+url: cat_recipes
+details: |
+  关于猫猫的一周食谱和采购计划
 ---
 
 # 猫猫的菜谱大集合

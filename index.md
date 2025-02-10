@@ -26,8 +26,8 @@ I'm a passionate researcher in AI, OCR, and deep learning, currently pursuing my
 ---
 
 ## **Projects**
-📂 **"Ancient OCR"** - AI-driven text recognition for historical manuscripts 
-📂 **"Medical SLAM"** - Autonomous AI-assisted navigation for endoscopy 
+📂 **"Ancient OCR"** - AI-driven text recognition for historical manuscripts
+📂 **"Medical SLAM"** - Autonomous AI-assisted navigation for endoscopy
 📂 **"Cultural Heritage Restoration"** - Neural networks for enhancing damaged texts
 
 [📂 **More Projects**](projects/)

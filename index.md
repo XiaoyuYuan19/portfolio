@@ -1,17 +1,21 @@
 ---
 title: "Xiaoyu Yuan"
-description: "A showcase of AI research, projects, and academic contributions."
+description: "Exploring AI, Computer Vision, and Ancient Script OCR."
 layout: default
 ---
 
-## Welcome to Xiaoyu Yuan's Academic Portfolio
+# Xiaoyu Yuan | AI & Computer Vision Researcher  
 
-### About Me
-I'm a **Computer Science Master's student** at the **University of Helsinki**, specializing in **AI, Machine Learning, and Computer Vision**. My research focuses on **OCR for ancient scripts, AI-assisted cultural heritage restoration, and medical SLAM for gastrointestinal navigation**.
+## About Me  
+I am a **Master's student in Computer Science** at the **University of Helsinki**, specializing in **Artificial Intelligence, Machine Learning, and Computer Vision**. My research interests include:  
 
-📌 **Education:**  
-- **M.Sc. in Computer Science** (University of Helsinki, 2023-2025)  
-- **B.Sc. in Software Engineering** (Nanjing Institute of Technology & University of Oulu, 2019-2023)
+- 🏛️ **OCR & Ancient Scripts** – Developing AI-powered Optical Character Recognition for historical and cultural heritage preservation.  
+- 🎨 **AI-assisted Restoration** – Using deep learning techniques to reconstruct and enhance damaged cultural artifacts.  
+- 🏥 **Medical SLAM & Navigation** – Applying AI-driven Simultaneous Localization and Mapping (SLAM) in gastrointestinal endoscopy.  
 
-🔗 **Find me online:**   
-[GitHub](https://github.com/XiaoyuYuan19) | [LinkedIn](https://www.linkedin.com/in/xiaoyuyuan19) | [Email](mailto:xiaoyuyuan19@gmail.com)
+## Education  
+📚 **M.Sc. in Computer Science** | *University of Helsinki* (2023-2025)  
+🎓 **B.Sc. in Software Engineering** | *Nanjing Institute of Technology & University of Oulu* (2019-2023)  
+
+## Connect With Me  
+🌐 [GitHub](https://github.com/XiaoyuYuan19) | 💼 [LinkedIn](https://www.linkedin.com/in/xiaoyuyuan19) | 📧 [Email](mailto:xiaoyuyuan19@gmail.com)

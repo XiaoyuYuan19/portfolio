@@ -14,4 +14,4 @@ I'm a **Computer Science Master's student** at the **University of Helsinki**, s
 - **B.Sc. in Software Engineering** (Nanjing Institute of Technology & University of Oulu, 2019-2023)
 
 🔗 **Find me online:**   
-- [GitHub](https://github.com/XiaoyuYuan19) | [LinkedIn](https://www.linkedin.com/in/xiaoyuyuan19) | [Email](mailto:xiaoyuyuan19@gmail.com)
+[GitHub](https://github.com/XiaoyuYuan19) | [LinkedIn](https://www.linkedin.com/in/xiaoyuyuan19) | [Email](mailto:xiaoyuyuan19@gmail.com)

@@ -26,43 +26,19 @@ I'm a passionate researcher in AI, OCR, and deep learning, currently pursuing my
 ---
 
 ## **Projects**
-| Project                        | Description                                           | GitHub |
-|--------------------------------|-------------------------------------------------------|--------|
-| **Ancient OCR**                | AI-driven text recognition for historical manuscripts | [📂 Repo](https://github.com/xxx) |
-| **Medical SLAM**               | Autonomous AI-assisted navigation for endoscopy      | [📂 Repo](https://github.com/xxx) |
-| **Cultural Heritage Restoration** | Neural networks for enhancing damaged texts      | [📂 Repo](https://github.com/xxx) |
+📂 **"Ancient OCR"** - AI-driven text recognition for historical manuscripts 
+📂 **"Medical SLAM"** - Autonomous AI-assisted navigation for endoscopy 
+📂 **"Cultural Heritage Restoration"** - Neural networks for enhancing damaged texts
 
-[📂 **More Projects**](projects.html)
+[📂 **More Projects**](projects/)
 
-<table>
-<tr>
-    <th>Project</th>
-    <th>Description</th>
-    <th>GitHub</th>
-</tr>
-<tr>
-    <td><b>Ancient OCR</b></td>
-    <td>AI-driven text recognition for historical manuscripts</td>
-    <td>📂 Repo</td>
-</tr>
-<tr>
-    <td><b>Medical SLAM</b></td>
-    <td>Autonomous AI-assisted navigation for endoscopy</td>
-    <td></td>
-</tr>
-<tr>
-    <td><b>Cultural Heritage Restoration</b></td>
-    <td>Neural networks for enhancing damaged texts</td>
-    <td></td>
-</tr>
-</table>
 ---
 
 ## **Publications**
 📄 **"Enhancing OCR for Ancient Scripts using Transformer Networks"** - *Published in NeurIPS 2024*  
 📄 **"AI-Assisted Navigation for Gastrointestinal Endoscopy"** - *Published in MICCAI 2023*  
 
-[📚 **Full Publication List**](publications.html)
+[📚 **Full Publication List**](publications/)
 
 ---
 

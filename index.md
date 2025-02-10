@@ -12,7 +12,7 @@ layout: default
 ---
 
 ## **About Me**
-![Profile Picture](profile.jpg){: width="150px" style="border-radius: 10px; float: left; margin-right: 15px;"}  
+![Profile Picture](/assets/image/graduation.jpg){: width="150px" style="border-radius: 10px; float: left; margin-right: 15px;"}  
 I'm a passionate researcher in AI, OCR, and deep learning, currently pursuing my Master's degree at the University of Helsinki. My work focuses on leveraging machine learning to analyze and restore ancient texts, as well as applying AI in medical SLAM for autonomous navigation.
 
 ---

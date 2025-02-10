@@ -1,18 +1,13 @@
 ---
-title: 猫猫食谱
+title: Bachelor's Thesis - AI-Based Image Inpainting
 layout: default
-description: 一只捕食的流浪猫猫
+description: Research on AI-assisted cultural heritage restoration.
 url: cat_recipes
-details: |
-  关于猫猫的一周食谱和采购计划
+link: none
+abstract: |
+  This thesis explores AI-driven image inpainting techniques for restoring
+  historical images. Using GANs and Stable Diffusion, we enhance low-quality
+  scans of ancient artifacts, ensuring better preservation.
 ---
-
-
-## 1. 米饭类
-
-
-- **猫猫可以根据每天的心情和时间来选快手 or 慢炖**  
-- **保证每周有 2~3 次丰富蔬菜 & 蛋白质的组合**  
-- **减少一次性采购过多易腐蔬菜，宁可多跑几次超市**  
-- **每次做饭做多点，剩饭/剩菜记得 2 天内吃完**  
-- **如果预算有余，可适量外卖 or k超烤鸡，不用天天自己做**
+## Abstract
+This thesis focuses on AI-based restoration techniques...

@@ -15,7 +15,7 @@ layout: default
 ![Profile Picture](/assets/images/graduation.jpg){: width="300px" style="border-radius: 10px; float: left; margin-right: 15px;"}  
 I'm a passionate researcher in AI, OCR, and deep learning, currently pursuing my Master's degree at the University of Helsinki. My work focuses on leveraging machine learning to analyze and restore ancient texts, as well as applying AI in medical SLAM for autonomous navigation.
 
----
+
 
 ## **Research Interests**
 - 🔥 **Machine Learning** – Deep Learning, Transformer Models
@@ -23,7 +23,7 @@ I'm a passionate researcher in AI, OCR, and deep learning, currently pursuing my
 - 🎥 **Computer Vision** – Image Restoration, 3D Reconstruction
 - 🏥 **Medical AI** – SLAM-based Endoscopy, AI for Healthcare
 
----
+
 
 ## **Projects**
 📂 **"Ancient OCR"** - AI-driven text recognition for historical manuscripts

@@ -96,7 +96,8 @@ h1, h2, h3 {
     color: #333;
     border-bottom: none;
     padding-bottom: 5px;
-    margin-top: 20px;
+    line-height: 1.2;
+    margin-top: 15px;
     margin-bottom: 5px;
 }
 

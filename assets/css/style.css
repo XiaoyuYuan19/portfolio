@@ -99,7 +99,7 @@ h1, h2, h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
+    width: 100%;
     padding: 5px 20px; /* ✅ 变得更小更轻盈 */
     background: rgba(248, 248, 248, 0.8); /* ✅ 让导航栏有点透明感 */
     border-bottom: 1px solid #ddd;
@@ -187,8 +187,8 @@ h1, h2, h3 {
 
 /* 🛠 修正 Contact 右侧超出问题 */
 .navbar ul {
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 /* 🌙 夜间模式调整 */

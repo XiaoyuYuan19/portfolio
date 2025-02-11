@@ -99,7 +99,7 @@ h1, h2, h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 100%;
+    width: 100%;
     padding: 15px 20px; /* ✅ 变得更小更轻盈 */
     background: rgba(248, 248, 248, 0.8); /* ✅ 让导航栏有点透明感 */
     border-bottom: 1px solid #ddd;

@@ -187,7 +187,8 @@ h1, h2, h3 {
 
 /* 🛠 修正 Contact 右侧超出问题 */
 .navbar ul {
-    padding-right: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 
 /* 🌙 夜间模式调整 */

@@ -4,54 +4,63 @@ description: "AI Research | Machine Learning | OCR | Computer Vision"
 layout: default
 ---
 
-# Xiaoyu Yuan
-**Computer Science Master's Student at University of Helsinki**  
-Researching **OCR for ancient scripts, AI-assisted restoration, and medical SLAM**  
+<h1>Xiaoyu Yuan</h1>
+<p><strong>Computer Science Master's Student at University of Helsinki</strong><br>
+Researching <strong>OCR for ancient scripts, AI-assisted restoration, and medical SLAM</strong></p >
 
-📧 Contact: [Email](mailto:xiaoyuyuan19@gmail.com) | [GitHub](https://github.com/XiaoyuYuan19) | [LinkedIn](https://www.linkedin.com/in/xiaoyuyuan19)
+<p>📧 Contact: Email | 
+ | 
+</p >
 
----
+<hr>
 
-## About Me
-![Profile Picture](/assets/images/graduation.jpg){: width="200px" style="border-radius: 10px; float: left; margin-right: 15px;"} 
-I am a researcher in **Artificial Intelligence, OCR, and Deep Learning**, currently pursuing a Master's degree at the **University of Helsinki**. My research focuses on leveraging **machine learning** to analyze and restore ancient texts, and applying AI in **medical SLAM** for autonomous navigation.
+<h2>About Me</h2>
+< img src="/assets/images/graduation.jpg" width="180px" style="border-radius: 10px; float: left; margin-right: 15px;">
+<p>I am a researcher in <strong>Artificial Intelligence, OCR, and Deep Learning</strong>, currently pursuing a Master's degree at the <strong>University of Helsinki</strong>. My research focuses on leveraging <strong>machine learning</strong> to analyze and restore ancient texts, and applying AI in <strong>medical SLAM</strong> for autonomous navigation.</p >
 
 <br clear="all"/>
 
----
+<hr>
 
-## Research Interests
-- **Machine Learning** – Deep Learning, Transformer Models  
-- **OCR & NLP** – Text Recognition, Historical Document Processing  
-- **Computer Vision** – Image Restoration, 3D Reconstruction  
-- **Medical AI** – SLAM-based Endoscopy, AI for Healthcare  
+<h2>Research Interests</h2>
+<ul>
+<li><strong>Machine Learning</strong> – Deep Learning, Transformer Models</li>
+<li><strong>OCR & NLP</strong> – Text Recognition, Historical Document Processing</li>
+<li><strong>Computer Vision</strong> – Image Restoration, 3D Reconstruction</li>
+<li><strong>Medical AI</strong> – SLAM-based Endoscopy, AI for Healthcare</li>
+</ul>
 
----
+<hr>
 
-## Projects
-**Ancient OCR** - AI-driven text recognition for historical manuscripts  
-**Medical SLAM** - Autonomous AI-assisted navigation for endoscopy  
-**Cultural Heritage Restoration** - Neural networks for enhancing damaged texts  
+<h2>Projects</h2>
+<ul>
+<li><strong>Ancient OCR</strong> - AI-driven text recognition for historical manuscripts</li>
+<li><strong>Medical SLAM</strong> - Autonomous AI-assisted navigation for endoscopy</li>
+<li><strong>Cultural Heritage Restoration</strong> - Neural networks for enhancing damaged texts</li>
+</ul>
+<p>More Projects</p >
 
-[More Projects](projects/)
+<hr>
 
----
+<h2>Publications</h2>
+<ul>
+<li><strong>"Enhancing OCR for Ancient Scripts using Transformer Networks"</strong> - <em>Published in NeurIPS 2024</em></li>
+<li><strong>"AI-Assisted Navigation for Gastrointestinal Endoscopy"</strong> - <em>Published in MICCAI 2023</em></li>
+</ul>
+<p>Full Publication List</p >
 
-## Publications
-**"Enhancing OCR for Ancient Scripts using Transformer Networks"** - *Published in NeurIPS 2024*  
-**"AI-Assisted Navigation for Gastrointestinal Endoscopy"** - *Published in MICCAI 2023*  
+<hr>
 
-[Full Publication List](publications/)
+<h2>Honors & Awards</h2>
+<ul>
+<li><strong>1st Prize</strong> - Chinese Collegiate Computing Competition <em>(National-Level, China)</em></li>
+<li><strong>2nd Prize</strong> - Jiangsu Province Bachelor Thesis Award <em>(Provincial-Level, China)</em></li>
+<li><strong>Full Tuition Scholarship</strong> - MSc in Computer Science, University of Helsinki</li>
+</ul>
 
----
+<hr>
 
-## Honors & Awards
-**1st Prize** - Chinese Collegiate Computing Competition *(National-Level, China)*  
-**2nd Prize** - Jiangsu Province Bachelor Thesis Award *(Provincial-Level, China)*  
-**Full Tuition Scholarship** - MSc in Computer Science, University of Helsinki  
-
----
-
-## Get in Touch
-📧 Email: [xiaoyuyuan19@gmail.com](mailto:xiaoyuyuan19@gmail.com)  
-🔗 [GitHub](https://github.com/XiaoyuYuan19) | [LinkedIn](https://www.linkedin.com/in/xiaoyuyuan19)
+<h2>Get in Touch</h2>
+<p>📧 Email: <br>
+🔗  | 
+</p >

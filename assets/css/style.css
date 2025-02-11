@@ -4,7 +4,7 @@ body {
     background: linear-gradient(120deg, #fefefe, #f5f7fa, #e6ecf0);
     background-attachment: fixed; 
     color: #222;
-    font-family: Calibri, Helvetica, sans-serif; 
+    font-family: Arial, Helvetica, sans-serif; 
     max-width: 90vw;
     margin: 0 auto;
     padding: 20px;
@@ -99,7 +99,7 @@ h1, h2, h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 90%;
+    max-width: 100%;
     margin: 0 auto;
     padding: 10px 0px; /* ✅ 变得更小更轻盈 */
     background: rgba(248, 248, 248, 0.8); /* ✅ 让导航栏有点透明感 */

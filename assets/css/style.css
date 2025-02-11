@@ -135,6 +135,13 @@ nav ul li a:hover {
     transition: 0.3s;
 }
 
+.navbar {
+    display: flex;
+    justify-content: space-between; /* 让导航项均匀分布 */
+    width: 100%; /* 让它铺满整个页面 */
+    padding: 10px 20px;
+}
+
 /* 超链接变蓝色，符合论文风 */
 a {
     color: #0056b3;

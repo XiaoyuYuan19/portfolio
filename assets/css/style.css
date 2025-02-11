@@ -2,7 +2,7 @@
 /* 🌟 浅色梦幻背景（白天模式）🌟 */
 body {
     background: linear-gradient(120deg, #fefefe, #f5f7fa, #e6ecf0);
-    background-attachment: fixed;
+    background-attachment: fixed; 
     color: #222;
     font-family: "Times New Roman", serif;
     max-width: 800px;

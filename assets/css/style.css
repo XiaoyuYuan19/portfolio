@@ -144,9 +144,9 @@ nav ul li a:hover {
 
 .navbar {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around; /* 让导航项均匀分布 */
     align-items: center;
-    list-style: none;
+    width: 100%; /* 让它铺满整个顶部 */
     padding: 10px 20px;
     background: #f8f8f8;
     border-bottom: 2px solid #ddd;

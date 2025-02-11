@@ -33,7 +33,7 @@ I'm a passionate researcher in AI, OCR, and deep learning, currently pursuing my
 
 [📂 **More Projects**](projects/)
 
----
+
 
 ## **Publications**
 📄 **"Enhancing OCR for Ancient Scripts using Transformer Networks"** - *Published in NeurIPS 2024*  
@@ -41,17 +41,17 @@ I'm a passionate researcher in AI, OCR, and deep learning, currently pursuing my
 
 [📚 **Full Publication List**](publications/)
 
----
+
 
 ## **Honors & Awards**
 🏆 **1st Prize** - Chinese Collegiate Computing Competition *(National-Level, China)*  
 🏆 **2nd Prize** - Jiangsu Province Bachelor Thesis Award *(Provincial-Level, China)*  
 🏆 **Full Tuition Scholarship** - MSc in Computer Science, University of Helsinki  
 
----
+
 
 ## **Get in Touch**
 📧 Email: [xiaoyuyuan19@gmail.com](mailto:xiaoyuyuan19@gmail.com)  
 🔗 [GitHub](https://github.com/XiaoyuYuan19) | [LinkedIn](https://www.linkedin.com/in/xiaoyuyuan19)
 
----
+

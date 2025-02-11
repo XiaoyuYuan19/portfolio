@@ -96,9 +96,10 @@ h1, h2, h3 {
     color: #333;
     border-bottom: none;
     padding-bottom: 5px;
-    line-height: 1.2;
+    line-height: 0.8;
     margin-top: 15px;
     margin-bottom: 5px;
+    padding: 0;
 }
 
 /* 🌟 让导航栏变成横向菜单 🌟 */

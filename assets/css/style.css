@@ -11,27 +11,6 @@ body {
     line-height: 1.8;
 }
 
-/* 🌙 夜间模式修正：让标题和链接也变浅色 🌙 */
-.dark-mode {
-    background: linear-gradient(135deg, #0f0f1a, #1a1a2e, #22264b);
-    color: #e0e0e0;
-}
-
-/* 🌙 让夜间模式的导航栏变得更适配 🌙 */
-.dark-mode nav ul{
-    background-color: #1c1f2b; /* 深色学术风背景 */
-    border-bottom: 2px solid #3c3f4a;
-}
-
-.dark-mode nav ul li a {
-    color: #d1d5e0; /* 让导航栏的链接变成冷淡风灰蓝色 */
-}
-
-.dark-mode nav ul li a:hover {
-    color: #ffffff; /* 鼠标悬停时变成白色 */
-}
-
-
 .dark-mode h1, 
 .dark-mode h2, 
 .dark-mode h3 {
@@ -108,59 +87,60 @@ h1, h2, h3 {
     margin-bottom: 5px;
     padding: 0;
 }
-/* 🎓 让导航栏横向铺满 & 图标均匀分布 */
+
+/* 🎓 顶部固定导航栏 */
 .navbar {
     display: flex;
-    justify-content: space-between;  /* 让导航栏均匀填充整行 */
+    justify-content: space-between; /* 让导航均匀分布 */
     align-items: center;
     width: 100%;
-    max-width: 1200px;  /* 设置最大宽度，防止太长 */
-    margin: 0 auto;  /* 居中 */
-    padding: 12px 20px;
-    background: #f8f8f8; /* 学术风浅灰 */
-    border-radius: 8px; /* 轻微圆角 */
-    border-bottom: 2px solid #ddd; /* 低调的边框 */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* 低调立体感 */
+    padding: 15px 20px;
+    background: #f8f8f8; /* 白天模式的背景 */
+    border-bottom: 2px solid #ddd;
+    font-size: 18px;
+    position: fixed;  /* ✅ 让导航栏固定在页面顶部 */
+    top: 0;
+    left: 0;
+    z-index: 1000; /* 确保它不会被别的元素遮住 */
+    height: 50px; /* ✅ 统一导航栏高度 */
 }
 
-/* 📌 移除 `nav ul` 影响，直接让 `.navbar` 负责 */
+/* 🎨 取消圆角，变成学术风格 */
 .navbar ul {
     list-style: none;
-    display: flex;
-    gap: 20px;  /* 让导航项之间有合适的间隔 */
     padding: 0;
     margin: 0;
-}
-
-/* 🌟 让导航栏的链接整洁 */
-.navbar li {
-    margin: 0;
-}
-
-/* 📌 链接文字 + 图标优化 */
-.navbar a {
     display: flex;
-    align-items: center;
+    width: 100%;
+    justify-content: space-around; /* 让导航均匀分布 */
+}
+
+/* 🎓 导航栏链接的基本样式 */
+.navbar a {
     text-decoration: none;
-    color: #222; /* 降低饱和度，避免刺眼 */
-    font-size: 16px;
-    font-weight: 600;
-    padding: 8px 12px;
-    border-radius: 6px;
-    transition: all 0.3s ease-in-out;
+    color: #333;
+    padding: 10px 15px;
+    transition: 0.3s;
+    font-weight: bold;
 }
 
-/* 🏆 鼠标悬停时的效果 */
+/* 🎨 鼠标悬停颜色 */
 .navbar a:hover {
-    background-color: #e0e0e0; /* 低调 hover 背景 */
-    color: #0056b3;  /* 学术蓝 */
+    color: #0056b3;
 }
 
-/* 🎓 让学术风 icon 变得更小巧 */
-.navbar a i {
-    font-size: 16px; /* 比较小巧，适配整体 */
-    margin-right: 6px; /* 让图标和文字有点距离 */
-    color: #555; /* 低饱和度，学术黑 */
+/* 🌙 夜间模式适配 */
+.dark-mode .navbar {
+    background: #1c1f2b; /* ✅ 深色背景 */
+    border-bottom: 2px solid #3c3f4a;
+}
+
+.dark-mode .navbar a {
+    color: #d1d5e0; /* ✅ 夜间模式下，导航栏的链接颜色 */
+}
+
+.dark-mode .navbar a:hover {
+    color: #ffffff; /* ✅ 鼠标悬停时，变成白色 */
 }
 
 /* 超链接变蓝色，符合论文风 */

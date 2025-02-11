@@ -15,7 +15,10 @@ layout: default
 ![Profile Picture](/assets/images/graduation.jpg){: width="300px" style="border-radius: 10px; float: left; margin-right: 15px;"}  
 I'm a passionate researcher in AI, OCR, and deep learning, currently pursuing my Master's degree at the University of Helsinki. My work focuses on leveraging machine learning to analyze and restore ancient texts, as well as applying AI in medical SLAM for autonomous navigation.
 
-
+<div style="display: flex; align-items: center;">
+    < img src="/assets/images/graduation.jpg" width="150px" style="border-radius: 10px; margin-right: 20px;">
+    <p>I'm a passionate researcher in AI, OCR, and deep learning, currently pursuing my Master's degree at the University of Helsinki. My work focuses on leveraging machine learning to analyze and restore ancient texts, as well as applying AI in medical SLAM for autonomous navigation.</p >
+</div>
 
 ## **Research Interests**
 - 🔥 **Machine Learning** – Deep Learning, Transformer Models

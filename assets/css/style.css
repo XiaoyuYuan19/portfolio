@@ -108,66 +108,59 @@ h1, h2, h3 {
     margin-bottom: 5px;
     padding: 0;
 }
-
-/* 🌟 让导航栏变成横向菜单 🌟 */
-nav ul {
-    list-style: none;  /* 移除默认的列表样式 */
-    padding: 0;
-    margin: 0;
-    display: flex; /* 让导航栏变成“横向排列” */
-    justify-content: center; /* 居中对齐 */
-    background-color: #eee; /* 浅灰色背景 */
-    padding: 10px 0; /* 给导航栏一点内边距 */
-    border-radius: 10px; /* 让导航栏边角变圆润 */
-}
-
-/* 让导航栏里的每个链接变得更整洁 */
-nav ul li {
-    margin: 0 15px; /* 每个菜单项之间留出空隙 */
-}
-
-/* 让导航栏的链接更明显 */
-nav ul li a {
-    text-decoration: none;
-    color: #0056b3;
-    font-weight: bold;
-    padding: 8px 15px;
-    border-radius: 5px;
-}
-
-/* 鼠标悬停时变色 */
-nav ul li a:hover {
-    background-color: #0056b3;
-    color: #fff;
-    transition: 0.3s;
-}
-
+/* 🎓 让导航栏横向铺满 & 图标均匀分布 */
 .navbar {
     display: flex;
-    justify-content: space-around; /* 让导航项均匀分布 */
+    justify-content: space-between;  /* 让导航栏均匀填充整行 */
     align-items: center;
-    width: 100%; /* 让它铺满整个顶部 */
-    padding: 10px 20px;
-    background: #f8f8f8;
-    border-bottom: 2px solid #ddd;
-    font-size: 18px;
+    width: 100%;
+    max-width: 1200px;  /* 设置最大宽度，防止太长 */
+    margin: 0 auto;  /* 居中 */
+    padding: 12px 20px;
+    background: #f8f8f8; /* 学术风浅灰 */
+    border-radius: 8px; /* 轻微圆角 */
+    border-bottom: 2px solid #ddd; /* 低调的边框 */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* 低调立体感 */
 }
 
-.navbar i {
-    font-size: 18px; /* 设置合适大小 */
-    margin-right: 8px; /* 让图标和文字有点间距 */
+/* 📌 移除 `nav ul` 影响，直接让 `.navbar` 负责 */
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;  /* 让导航项之间有合适的间隔 */
+    padding: 0;
+    margin: 0;
 }
 
+/* 🌟 让导航栏的链接整洁 */
+.navbar li {
+    margin: 0;
+}
+
+/* 📌 链接文字 + 图标优化 */
 .navbar a {
+    display: flex;
+    align-items: center;
     text-decoration: none;
-    color: #333;
-    padding: 10px 15px;
-    transition: 0.3s;
-    font-weight: bold;
+    color: #222; /* 降低饱和度，避免刺眼 */
+    font-size: 16px;
+    font-weight: 600;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
 }
 
+/* 🏆 鼠标悬停时的效果 */
 .navbar a:hover {
-    color: #0056b3;
+    background-color: #e0e0e0; /* 低调 hover 背景 */
+    color: #0056b3;  /* 学术蓝 */
+}
+
+/* 🎓 让学术风 icon 变得更小巧 */
+.navbar a i {
+    font-size: 16px; /* 比较小巧，适配整体 */
+    margin-right: 6px; /* 让图标和文字有点距离 */
+    color: #555; /* 低饱和度，学术黑 */
 }
 
 /* 超链接变蓝色，符合论文风 */

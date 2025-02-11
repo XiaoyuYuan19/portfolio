@@ -94,27 +94,31 @@ h1, h2, h3 {
     padding: 0;
 }
 
-/* 🎓 让导航栏更窄，更对齐页面 */
+/* 🎓 让导航栏背景完全铺满 */
+.navbar-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 45px;
+    background: rgba(248, 248, 248, 0.9); /* ✅ 保持透明感 */
+    border-bottom: 1px solid #ddd;
+    backdrop-filter: blur(5px);
+    z-index: 999;
+}
+
+/* 🎓 让导航栏居中 */
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90%; /* ✅ 让导航栏和正文对齐 */
-    max-width: 1200px; /* ✅ 控制最大宽度 */
-    margin: 0 auto; /* ✅ 居中对齐 */
-    padding: 12px 0;
-    background: rgba(248, 248, 248, 0.9);
-    border-bottom: 1px solid #ddd;
-    position: fixed;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    z-index: 1000;
+    width: 90%; /* ✅ 让导航栏对齐正文 */
+    max-width: 1200px;
+    margin: 0 auto;
     height: 45px;
-    backdrop-filter: blur(5px);
 }
 
-/* 🎓 左侧 LOGO */
+/* 🎓 让 LOGO 颜色更协调 */
 .navbar .logo {
     font-size: 18px;
     font-weight: bold;
@@ -122,19 +126,19 @@ h1, h2, h3 {
     text-decoration: none;
 }
 
-/* 🎓 右侧导航 */
+/* 🎓 让导航菜单对齐 */
 .navbar ul {
     list-style: none;
     display: flex;
-    gap: 20px; /* ✅ 均匀分布 */
+    gap: 20px;
 }
 
-/* 🎯 让导航栏里的按钮更优雅 */
+/* 🎯 让导航按钮更优雅 */
 .navbar ul li {
     position: relative;
 }
 
-/* 🎨 导航链接基本样式 */
+/* 🎨 导航栏按钮 */
 .navbar ul li a {
     text-decoration: none;
     color: #333;
@@ -143,7 +147,7 @@ h1, h2, h3 {
     transition: color 0.3s;
 }
 
-/* ✅ 修正导航栏按钮下划线 */
+/* ✅ 添加底部动态下划线 */
 .navbar ul li a::after {
     content: "";
     position: absolute;
@@ -156,28 +160,24 @@ h1, h2, h3 {
     transform: translateX(-50%);
 }
 
-/* 🖱️ 鼠标悬停时，显示渐变下划线 */
+/* 🖱️ 鼠标悬停时显示 */
 .navbar ul li a:hover::after {
     width: 100%;
     background-color: #0056b3;
 }
 
-/* 🎯 Active 页面下划线常亮 */
+/* 🎯 让当前页面按钮 `active` */
 .navbar ul li a.active::after {
     width: 100%;
     background-color: #0056b3;
 }
 
-/* 🎯 Active 页面文字高亮 */
 .navbar ul li a.active {
     color: #0056b3;
 }
 
-/* 🏡 让 `Home` 页面也有 `active` 效果 */
-body.home .navbar a[href*="portfolio"] {
-    color: #0056b3;
-    border-bottom: 3px solid #0056b3;
-}
+/* 🏡 让 `home` 页面也有 `active` 效果 */
+body.home .navbar a[href*="portfolio"],
 body.projects .navbar a[href*="portfolio/projects"],
 body.publications .navbar a[href*="portfolio/publications"],
 body.contact .navbar a[href*="portfolio/contact"] {
@@ -186,7 +186,7 @@ body.contact .navbar a[href*="portfolio/contact"] {
 }
 
 /* 🌙 夜间模式优化 */
-.dark-mode .navbar {
+.dark-mode .navbar-wrapper {
     background: rgba(28, 31, 43, 0.9);
     border-bottom: 1px solid #3c3f4a;
 }
@@ -205,12 +205,6 @@ body.contact .navbar a[href*="portfolio/contact"] {
 
 .dark-mode .navbar ul li a.active::after {
     background-color: #6a85b6;
-}
-
-/* 🛠 修正 Contact 超出问题 */
-.navbar ul {
-    padding-left: 0;
-    padding-right: 0;
 }
 
 /* 超链接变蓝色，符合论文风 */

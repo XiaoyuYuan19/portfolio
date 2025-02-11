@@ -36,7 +36,7 @@ body {
 .dark-mode h2, 
 .dark-mode h3 {
     color: #ffffff;
-    border-bottom: 2px solid #555;
+    border-bottom: none;
 }
 
 /* 🎓 夜间模式的学术风链接 🎓 */
@@ -96,6 +96,8 @@ h1, h2, h3 {
     color: #333;
     border-bottom: none;
     padding-bottom: 5px;
+    margin-top: 20px;
+    margin-bottom: 5px;
 }
 
 /* 🌟 让导航栏变成横向菜单 🌟 */

@@ -11,6 +11,12 @@ body {
     line-height: 1.8;
 }
 
+/* 🌙 夜间模式修正：让标题和链接也变浅色 🌙 */
+.dark-mode {
+    background: linear-gradient(135deg, #0f0f1a, #1a1a2e, #22264b);
+    color: #e0e0e0;
+}
+
 .dark-mode h1, 
 .dark-mode h2, 
 .dark-mode h3 {

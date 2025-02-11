@@ -17,10 +17,10 @@ I am a researcher in **Artificial Intelligence, OCR, and Deep Learning**, curren
 ---
 
 ## Research Interests
-- **Machine Learning** – Deep Learning, Transformer Models  
-- **OCR & NLP** – Text Recognition, Historical Document Processing  
-- **Computer Vision** – Image Restoration, 3D Reconstruction  
-- **Medical AI** – SLAM-based Endoscopy, AI for Healthcare  
+**Machine Learning** – Deep Learning, Transformer Models  
+**OCR & NLP** – Text Recognition, Historical Document Processing  
+**Computer Vision** – Image Restoration, 3D Reconstruction  
+**Medical AI** – SLAM-based Endoscopy, AI for Healthcare  
 
 ---
 

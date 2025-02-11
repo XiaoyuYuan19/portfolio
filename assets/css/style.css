@@ -94,25 +94,26 @@ h1, h2, h3 {
     padding: 0;
 }
 
-/* 🎓 让导航栏更小巧，固定在顶部 */
+/* 🎓 让导航栏更窄，减少压迫感 */
 .navbar {
     display: flex;
-    justify-content: space-between; /* ✅ 左右分布 */
+    justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 8px 20px; /* ✅ 让导航栏更小更紧凑 */
-    background: #f8f8f8;
-    border-bottom: 2px solid #ddd;
+    padding: 5px 20px; /* ✅ 变得更小更轻盈 */
+    background: rgba(248, 248, 248, 0.8); /* ✅ 让导航栏有点透明感 */
+    border-bottom: 1px solid #ddd;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1000;
-    height: 45px; /* ✅ 让导航栏更紧凑 */
+    height: 40px; /* ✅ 再次缩小 */
+    backdrop-filter: blur(5px); /* ✅ 轻微磨砂玻璃感 */
 }
 
-/* 🎓 左侧 LOGO 样式 */
+/* 🎓 左侧 LOGO */
 .navbar .logo {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     color: #333;
     text-decoration: none;
@@ -126,41 +127,67 @@ h1, h2, h3 {
     display: flex;
 }
 
-/* 🎨 导航栏链接的样式 */
+/* 🎯 让导航栏里的按钮更优雅 */
 .navbar ul li {
-    margin-left: 20px; /* ✅ 让链接间距更自然 */
+    margin-left: 15px; /* ✅ 让间距更协调 */
 }
 
+/* 🎨 导航链接基本样式 */
 .navbar ul li a {
     text-decoration: none;
     color: #333;
-    padding: 5px 0; /* ✅ 让链接更紧凑 */
+    padding: 5px 10px;
     position: relative;
-    font-weight: normal; /* ❌ 取消加粗 */
+    font-weight: normal;
     transition: color 0.3s;
 }
 
-/* 🎨 鼠标悬停时改变颜色 */
-.navbar ul li a:hover {
-    color: #0056b3;
-}
-
-/* 📌 让当前页面 `active` 时有底部下划线 */
+/* 📌 添加底部下划线 */
 .navbar ul li a::after {
     content: "";
     position: absolute;
-    left: 0;
-    bottom: -3px; /* ✅ 让下划线靠近导航栏底部 */
-    width: 100%;
+    left: 50%;
+    bottom: -3px;
+    width: 0;
     height: 2px;
     background-color: transparent;
-    transition: background-color 0.3s;
+    transition: all 0.3s ease;
+    transform: translateX(-50%);
 }
 
-/* 📌 让 `active` 页面下划线变亮 */
-.navbar ul li a.active::after,
+/* 🎯 Active 页面下划线常亮 */
+.navbar ul li a.active::after {
+    width: 100%;
+    background-color: #0056b3;
+}
+
+/* 🎨 鼠标悬停时 */
 .navbar ul li a:hover::after {
-    background-color: #0056b3; /* ✅ 下划线颜色 */
+    width: 100%;
+    background-color: #0056b3;
+}
+
+/* 🌙 夜间模式优化 */
+.dark-mode .navbar {
+    background: rgba(28, 31, 43, 0.8);
+    border-bottom: 1px solid #3c3f4a;
+}
+
+.dark-mode .navbar .logo {
+    color: #ffffff;
+}
+
+.dark-mode .navbar ul li a {
+    color: #d1d5e0;
+}
+
+.dark-mode .navbar ul li a.active::after {
+    background-color: #ffffff;
+}
+
+/* 🛠 修正 Contact 右侧超出问题 */
+.navbar ul {
+    padding-right: 20px;
 }
 
 /* 🌙 夜间模式调整 */

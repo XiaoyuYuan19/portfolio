@@ -200,11 +200,11 @@ body.contact .navbar a[href*="portfolio/contact"] {
 }
 
 .dark-mode .navbar ul li a:hover::after {
-    background-color: #6a85b6;
+    background-color: #B4C8FFE6;
 }
 
 .dark-mode .navbar ul li a.active::after {
-    background-color: #6a85b6;
+    background-color: #B4C8FFE6;
 }
 
 /* 超链接变蓝色，符合论文风 */

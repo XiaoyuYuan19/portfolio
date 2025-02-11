@@ -112,7 +112,7 @@ h1, h2, h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90%; /* ✅ 让导航栏对齐正文 */
+    width: 100%; /* ✅ 让导航栏对齐正文 */
 /*     max-width: 1200px; */
     margin: 0 auto;
     height: 45px;

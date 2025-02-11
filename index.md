@@ -32,7 +32,7 @@ I'm a passionate researcher in AI, OCR, and deep learning, currently pursuing my
 
 📂 **"Cultural Heritage Restoration"** - Neural networks for enhancing damaged texts
 
-📄 **"Ancient OCR"** - AI-driven text recognition for historical manuscripts
+📄 **"Ancient OCR"** - AI-driven text recognition for historical manuscripts  
 📄 **"AI-Assisted Navigation for Gastrointestinal Endoscopy"** - *Published in MICCAI 2023*  
 
 [📂 **More Projects**](projects/)

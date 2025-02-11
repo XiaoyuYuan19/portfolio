@@ -4,6 +4,7 @@ description: "AI Research | Machine Learning | OCR | Computer Vision"
 layout: default
 ---
 
+# Xiaoyu Yuan
 **Computer Science Master's Student at University of Helsinki**  
 Researching **OCR for ancient scripts, AI-assisted restoration, and medical SLAM**  
 

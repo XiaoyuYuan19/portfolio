@@ -178,6 +178,12 @@ body.home .navbar a[href*="portfolio"] {
     color: #0056b3;
     border-bottom: 3px solid #0056b3;
 }
+body.projects .navbar a[href*="portfolio/projects"],
+body.publications .navbar a[href*="portfolio/publications"],
+body.contact .navbar a[href*="portfolio/contact"] {
+    color: #0056b3;
+    border-bottom: 3px solid #0056b3; /* 当前页面下划线保持亮起 */
+}
 
 /* 🌙 夜间模式优化 */
 .dark-mode .navbar {

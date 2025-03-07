@@ -33,18 +33,30 @@ I am a researcher in **Artificial Intelligence, OCR, and Deep Learning**, curren
 
 ---
 
-## Publications
-**"Enhancing OCR for Ancient Scripts using Transformer Networks"** - *Published in NeurIPS 2024*  
-**"AI-Assisted Navigation for Gastrointestinal Endoscopy"** - *Published in MICCAI 2023*  
+# Publications & Awards
+
+## 📄 Publications
+
+{% for paper in site.publications %}
+### [{{ paper.title }}]({{ paper.link }})
+- **Authors:** {{ paper.authors }}
+- **Conference:** {{ paper.conference }}, {{ paper.year }}
+- **Publisher:** {{ paper.publisher }}
+- **DOI:** [{{ paper.doi }}]({{ paper.link }})
+
+---
+{% endfor %}
+
 
 [Full Publication List](publications/)
 
 ---
 
-## Honors & Awards
-**1st Prize** - Chinese Collegiate Computing Competition *(National-Level, China)*  
-**2nd Prize** - Jiangsu Province Bachelor Thesis Award *(Provincial-Level, China)*  
-**Full Tuition Scholarship** - MSc in Computer Science, University of Helsinki  
+## Awards
+- **1st Prize**, Chinese Collegiate Computing Competition *(National-Level, China, 2023)*
+- **2nd Prize**, Jiangsu Province Bachelor Thesis Award *(Provincial-Level, China, 2023)*
+- **3rd Prize**, Jiangsu Province University Mathematical Modeling Competition *(Provincial-Level, China, 2021)*
+
 
 ---
 

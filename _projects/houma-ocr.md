@@ -2,8 +2,8 @@
 title: Houma Alliance Book Ancient Character Recognition
 layout: default
 description: AI-powered OCR platform for ancient scripts.
-github: https://github.com/XiaoyuYuan19
-youtube: https://www.youtube.com/watch?v=example
+github: https://houmaocr.ddns.net/
+youtube: https://www.youtube.com/watch?v=myvIOghtj1k&t=14s
 url: /projects/houma-ocr/
 details: |
   This project focuses on developing an OCR system for recognizing ancient scripts

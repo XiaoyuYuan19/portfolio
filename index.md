@@ -33,8 +33,6 @@ I am a researcher in **Artificial Intelligence, OCR, and Deep Learning**, curren
 
 ---
 
-# Publications & Awards
-
 ## Publications
 
 {% for paper in site.publications %}

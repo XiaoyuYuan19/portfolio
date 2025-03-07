@@ -11,7 +11,7 @@ details: |
   it enables accurate transcription of historical texts.
 
   - **Published in ICMSSP 2023** ([Paper](https://dl.acm.org/doi/10.1145/3613917.3613923))
-  - **Real-time Web Platform** (Coming Soon)
+  - **Real-time Web Platform** ([Website](https://houmaocr.ddns.net/))
 ---
 
 # {{ page.title }}

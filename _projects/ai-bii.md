@@ -3,7 +3,7 @@ title: AI+BII - Building Image Inpainting for Cultural Heritage Restoration
 layout: default
 description: AI-assisted inpainting for restoring ancient architecture.
 github: https://github.com/XiaoyuYuan19/AI-BII
-youtube: https://www.youtube.com/watch?v=k_lfRbl8zzY
+youtube: https://www.youtube.com/watch?v=nnxlg_0Jbws&t=3s
 url: ai-bii
 details: |
   This research leverages AI and deep learning models for cultural heritage restoration.

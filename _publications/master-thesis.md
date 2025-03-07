@@ -4,7 +4,7 @@ layout: default
 description: Deep-learning-based SLAM enhancements for medical navigation.
 link: none
 url: publications/master-thesis
-abstract: |
+abstract: | 
   Investigating deep-learning-based SLAM enhancements for improving real-time
   lesion detection in endoscopy. The project integrates self-supervised learning
   to improve localization in constrained environments.

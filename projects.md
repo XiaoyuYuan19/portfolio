@@ -12,4 +12,7 @@ Here is a list of my major projects.
 ## [{{ project.title }}]({{ project.url | relative_url }})
 📝 {{ project.description }}  
 🔗 [GitHub]({{ project.github }}) | 🎥 [YouTube]({{ project.youtube }})  
+
+---
+
 {% endfor %}

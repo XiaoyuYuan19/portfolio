@@ -1,6 +1,6 @@
 ---
 title: "HABFD: Houma Alliance Book facsimiles database"
-authors: "Z. Zhang, X. Huang, X. Yuan, & Y. Sun"
+authors: "Z. Zhang, X. Huang, **X. Yuan**, & Y. Sun"
 conference: "Proc. of the IEEE Int. Conf. on Image, Vision and Computing (ICIVC ’23)"
 publisher: "IEEE"
 doi: "10.1109/icivc58118.2023.10269984"

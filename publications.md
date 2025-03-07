@@ -6,7 +6,7 @@ permalink: /publications/
 
 # Publications & Awards
 
-## 📄 Publications
+## Publications
 
 {% for paper in site.publications %}
 ### [{{ paper.title }}]({{ paper.link }})

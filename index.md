@@ -44,7 +44,6 @@ I am a researcher in **Artificial Intelligence, OCR, and Deep Learning**, curren
 - **Publisher:** {{ paper.publisher }}
 - **DOI:** [{{ paper.doi }}]({{ paper.link }})
 
----
 {% endfor %}
 
 

@@ -13,8 +13,9 @@ body {
 
 /* 🌙 夜间模式修正：让标题和链接也变浅色 🌙 */
 .dark-mode {
-    background: linear-gradient(135deg, #0f0f1a, #1a1a2e, #22264b);
+    background: linear-gradient(to bottom, #0f0f1a, #1a1a2e 60%, #22264b 100%);
     color: #e0e0e0;
+    min-height: 100vh;
 }
 
 .dark-mode h1, 

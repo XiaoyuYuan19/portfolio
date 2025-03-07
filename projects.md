@@ -10,8 +10,8 @@ Here is a list of my major projects.
 
 {% for project in site.projects %}
 ## [{{ project.title }}]({{ project.url | relative_url }})
-📝 {{ project.description }}  
-🔗 [GitHub]({{ project.github }}) | 🎥 [YouTube]({{ project.youtube }})  
+{{ project.description }}  
+[GitHub]({{ project.github }}) | 🎥 [YouTube]({{ project.youtube }})  
 
 ---
 

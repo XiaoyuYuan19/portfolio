@@ -16,6 +16,18 @@ I am a researcher in **Artificial Intelligence, OCR, and Deep Learning**, curren
 
 ---
 
+## Education  
+| Institution                | Degree & Major | Year |
+|----------------------------|---------------|------|
+| **University of Helsinki**, Finland  | Master in Computer Science  *(Track: Algorithm)*  | Aug. 2023 – Jun. 2025  |
+| **University of Oulu**, Finland  | Bachelor in Software Engineering *(Double Degree with Nanjing Institute of Technology)*  | Aug. 2019 – Jun. 2023 |
+
+- **GPA**: 4.24 *(Master's)* | 4.01 *(Bachelor's)*
+- **Key Courses (MSc)**: Statistics for Data Science, Advanced Machine Learning, Neural Networks and Deep Learning  
+- **Key Courses (BSc)**: Data Structures and Algorithms, Software Architectures, AI and Software Engineering  
+
+---
+
 ## Research Interests
 **Machine Learning** – Deep Learning, Transformer Models  
 **OCR & NLP** – Text Recognition, Historical Document Processing  

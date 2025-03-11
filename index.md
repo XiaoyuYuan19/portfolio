@@ -34,23 +34,6 @@ Aug. 2019 – Jun. 2023
 
 ---
 
-## Research Interests
-**Machine Learning** – Deep Learning, Transformer Models  
-**OCR & NLP** – Text Recognition, Historical Document Processing  
-**Computer Vision** – Image Restoration, 3D Reconstruction  
-**Medical AI** – SLAM-based Endoscopy, AI for Healthcare  
-
----
-
-## Projects
-**Ancient OCR** - AI-driven text recognition for historical manuscripts  
-**Medical SLAM** - Autonomous AI-assisted navigation for endoscopy  
-**Cultural Heritage Restoration** - Neural networks for enhancing damaged texts  
-
-[More Projects](projects/)
-
----
-
 ## Publications
 
 {% for paper in site.publications %}
@@ -72,6 +55,22 @@ Aug. 2019 – Jun. 2023
 - **2nd Prize**, Jiangsu Province Bachelor Thesis Award *(Provincial-Level, China, 2023)*
 - **3rd Prize**, Jiangsu Province University Mathematical Modeling Competition *(Provincial-Level, China, 2021)*
 
+---
+
+## Research Interests
+**Machine Learning** – Deep Learning, Transformer Models  
+**OCR & NLP** – Text Recognition, Historical Document Processing  
+**Computer Vision** – Image Restoration, 3D Reconstruction  
+**Medical AI** – SLAM-based Endoscopy, AI for Healthcare  
+
+---
+
+## Projects
+**Ancient OCR** - AI-driven text recognition for historical manuscripts  
+**Medical SLAM** - Autonomous AI-assisted navigation for endoscopy  
+**Cultural Heritage Restoration** - Neural networks for enhancing damaged texts  
+
+[More Projects](projects/)
 
 ---
 

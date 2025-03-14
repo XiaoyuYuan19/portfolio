@@ -14,14 +14,6 @@ details: |
   - **Integrated Hugging Face API for inference**
 ---
 
----
-title: AI+BII - Building Image Inpainting for Cultural Heritage Restoration
-layout: default
-description: AI-assisted inpainting for restoring ancient architecture.
-github: https://github.com/XiaoyuYuan19/AI-BII
-youtube: https://www.youtube.com/watch?v=nnxlg_0Jbws
-url: ai-bii
----
 
 # **{{ page.title }}**
 

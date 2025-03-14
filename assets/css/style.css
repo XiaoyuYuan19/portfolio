@@ -228,7 +228,33 @@ pre {
     font-family: "Courier New", monospace;
 }
 
-/* 表格样式（IEEE 论文风格） */
+/* 双栏布局 (类似论文风) */
+.two-column {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* 控制两列之间的间距 */
+}
+
+.column {
+    flex: 1;
+    max-width: 48%;
+    text-align: justify;
+}
+
+/* 让页面内容居中 */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* 让标题更像学术论文 */
+h1, h2 {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* 让表格风格更学术 */
 table {
     width: 100%;
     border-collapse: collapse;
@@ -237,11 +263,12 @@ table {
 
 th, td {
     border: 1px solid #bbb;
-    padding: 10px;
+    padding: 8px;
     text-align: left;
 }
 
 th {
-    background: #ddd;
+    background: #eee;
     font-weight: bold;
 }
+

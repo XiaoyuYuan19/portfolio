@@ -63,10 +63,6 @@ Aug. 2019 – Jun. 2023
 
 {% endfor %}
 
-- **X. Yuan**, Z. Zhang, Y. Sun, Z. Xue, X. Shao, & X. Huang. (2023). A new database of Houma Alliance Book ancient handwritten characters and its baseline algorithm. In Proc. of the 8th Int. Conf. on Multimedia Systems and Signal Processing (ICMSSP ’23). ACM. [DOI: 10.1145/3613917.3613923 ](https://dl.acm.org/doi/10.1145/3613917.3613923)
--	Z. Zhang, X. Huang, **X. Yuan**, & Y. Sun. (2023). HABFD: Houma Alliance Book facsimiles database. In Proc. of the IEEE Int. Conf. on Image, Vision and Computing (ICIVC ’23). IEEE. [DOI: 10.1109/icivc58118. 2023.10269984 ](https://ieeexplore.ieee.org/document/10269984)
-
-
 [Full Publication List](publications/)
 
 ---

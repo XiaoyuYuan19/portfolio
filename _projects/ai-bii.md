@@ -20,10 +20,10 @@ details: |
   <div class="authors">
       <p>Authors: Xiaoyu Yuan, Pei Liu, Ruochen Gai</p>
       <p>University of Helsinki, 2024</p>
+      **[GitHub]({{ page.github }})** | **[YouTube]({{ page.youtube }})**
   </div>
 </div>
 
-**[GitHub]({{ page.github }})** | 🎥 **[YouTube]({{ page.youtube }})**
 ---
 
 <div class="content">

@@ -15,45 +15,51 @@ details: |
 ---
 
 
-# **{{ page.title }}**
+<div class="title">{{ page.title }}</div>
 
-📝 *{{ page.description }}*  
+<div class="authors">
+    <p>Authors: Xiaoyu Yuan, Pei Liu, Ruochen Gai</p>
+    <p>University of Helsinki, 2024</p>
+</div>
 
-*Authors: Xiaoyu Yuan, Pei Liu, Ruochen Gai*  
-*University of Helsinki, 2024*  
-
----
-
-<div class="container">
+<div class="content">
   <div class="two-column">
     <div class="column">
-      ## **Abstract**
-      Historical buildings are subject to destruction due to natural disasters, war, and human intervention. This project explores **generative AI (GenAI) for automatic image restoration**, focusing on **inpainting techniques using Stable Diffusion**.
+      <h2>Abstract</h2>
+      <p>Historical buildings are subject to destruction due to natural disasters, war, and human intervention. 
+      This project explores <strong>generative AI (GenAI) for automatic image restoration</strong>, 
+      focusing on <strong>inpainting techniques using Stable Diffusion</strong>.</p>
     </div>
 
     <div class="column">
-      ## **Introduction**
-      Many historical structures have suffered **irreversible damage**. Traditional restoration is costly and time-consuming. AI-driven solutions automate image restoration, making the process **efficient and scalable**.
+      <h2>Introduction</h2>
+      <p>Many historical structures have suffered <strong>irreversible damage</strong>. Traditional restoration is costly and time-consuming. 
+      AI-driven solutions automate image restoration, making the process <strong>efficient and scalable</strong>.</p>
     </div>
   </div>
 </div>
 
----
+<h2>Methodology</h2>
 
-## **Methodology**
-<div class="container">
+<div class="content">
   <div class="two-column">
     <div class="column">
-      ### **1. Automatic Image Restoration**
-      - Uses **Stable Diffusion Inpainting** models.
-      - Allows **user-guided masking** for restoration.
+      <h3>1. Automatic Image Restoration</h3>
+      <ul>
+        <li>Uses <strong>Stable Diffusion Inpainting</strong> models.</li>
+        <li>Allows <strong>user-guided masking</strong> for restoration.</li>
+      </ul>
     </div>
 
     <div class="column">
-      ### **2. Customizable Style Transfer**
-      - Converts restored images into **various artistic styles**:
-        - 🏛 **Architectural Sketches**
-        - 🎨 **Watercolor Effects**
+      <h3>2. Customizable Style Transfer</h3>
+      <ul>
+        <li>Converts restored images into <strong>various artistic styles</strong>:</li>
+        <ul>
+          <li><strong>Architectural Sketches</strong></li>
+          <li><strong>Watercolor Effects</strong></li>
+        </ul>
+      </ul>
     </div>
   </div>
 </div>

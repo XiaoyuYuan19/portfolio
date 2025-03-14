@@ -227,14 +227,14 @@ pre {
     overflow-x: auto;
     font-family: "Courier New", monospace;
 }
-
+/* 
 /* 让标题、作者、单位居中 */
 .title {
     text-align: center;
     font-weight: bold;
     font-size: 28px;
     margin-bottom: 10px;
-}
+} */
 
 .authors {
     text-align: center;

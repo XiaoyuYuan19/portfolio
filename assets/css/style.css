@@ -276,11 +276,37 @@ th {
 .two-column {
     display: flex;
     justify-content: space-between;
-    gap: 40px;
+    gap: 20px;
 }
 
 .column {
     flex: 1;
     max-width: 48%;
     text-align: justify;
+}
+
+
+/* 让页面内容居中 */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* 让表格风格更学术 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td {
+    border: 1px solid #bbb;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background: #eee;
+    font-weight: bold;
 }

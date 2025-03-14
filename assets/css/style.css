@@ -290,7 +290,7 @@ th {
 
 /* 让页面内容居中 */
 .container {
-    max-width: 80%;
+    max-width: 90vw;
     margin: 0 auto;
     padding: 20px;
 }

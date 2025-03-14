@@ -16,7 +16,7 @@ details: |
 # {{ page.title }}
 
 📝 **{{ page.description }}**  
-🔗 **[GitHub]({{ page.github }})** | 🎥 **[YouTube]({{ page.youtube }})**
+🔗 **[GitHub]({{ page.github }})** | 🎥 **[YouTube]({{ page.youtube }})** 
 
 ## Project Overview
 {{ page.details }}

@@ -227,14 +227,14 @@ pre {
     overflow-x: auto;
     font-family: "Courier New", monospace;
 }
-/* 
+
 /* 让标题、作者、单位居中 */
 .title {
     text-align: center;
     font-weight: bold;
     font-size: 28px;
     margin-bottom: 10px;
-} */
+}
 
 .authors {
     text-align: center;
@@ -273,11 +273,11 @@ pre {
     padding: 20px;
 }
 
-/* 让标题更像学术论文 */
+/* /* 让标题更像学术论文 */
 h1, h2 {
     text-align: center;
     font-weight: bold;
-}
+} */
 
 /* 让表格风格更学术 */
 table {

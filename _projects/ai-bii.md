@@ -17,15 +17,8 @@ details: |
 # {{ page.title }}
 
 📝 **{{ page.description }}**  
-🔗 **[GitHub]({{ page.github }})** | 🎥 **[YouTube]({{ page.youtube }})**
 
-
-## Project Overview
-{{ page.details }}
-
-
-# **AI+BII: Generative AI for Building Image Inpainting**
-*Authors: Pei Liu, Xiaoyu Yuan, Ruochen Gai*  
+*Authors: Xiaoyu Yuan, Pei Liu, Ruochen Gai*  
 *University of Helsinki, 2024*
 
 ---
@@ -103,13 +96,6 @@ This project demonstrates the **potential of AI in architectural conservation**,
 ✔ **Develop AR applications** for immersive historical visualization.  
 ✔ **Collaborate with cultural organizations** to enhance real-world heritage conservation.  
 ✔ **Provide API access** for integration into other heritage research tools.  
-
----
-
-## 🔗 **Project Links**
-- 📂 **GitHub Repository:** [AI-BII](https://github.com/XiaoyuYuan19/AI-BII)
-- 🎥 **YouTube Demo:** [Watch Here](https://www.youtube.com/watch?v=nnxlg_0Jbws)
-- 📄 **Research Paper (Coming Soon!)**
 
 ---
 

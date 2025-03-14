@@ -25,18 +25,15 @@ details: |
 
 ---
 
-## **Introduction**
 <div class="content">
   <div class="two-column">
     <div class="column">
-      <h2>Why AI for Cultural Heritage Restoration?</h2>
-      <p>Restoration of ancient artifacts and structures is labor-intensive and often subject to artistic bias. AI-based solutions enable:</p>
-      <ul>
-        <li>Automated, cost-effective restoration.</li>
-        <li>Multi-style inference for different historical perspectives.</li>
-        <li>Scalability for large-scale heritage conservation projects.</li>
-      </ul>
-      <p>Thus, we propose a deep learning-based inpainting framework leveraging Stable Diffusion for restoring missing architectural details.</p>
+      <h2>Abstract:</h2>
+      <p>Historical buildings have been destroyed for many reasons, and many important historical information and cultures have failed to realize their true value. This project integrates generative artificial intelligence (GenAI) for automatic image restoration, attempting to restore the complete state of the building by filling in the missing areas in the image, and providing multi-style restoration output. The goal is to provide an easy-to-use tool that provides new possibilities for the protection, research and display of cultural heritage.</p>
+      <h2>Introduction</h2>
+      <p>With the accumulation of natural weathering, war and human interference, many historical buildings have suffered varying degrees of damage. These defects not only hinder the protection of cultural heritage, but also affect people's understanding of the original design and style of the building. Traditional restoration methods often rely on manual judgment and drawing. Although they are effective in some cases, they also face the problems of high cost, strong subjectivity and large workload. 
+Therefore, the project uses the function of stable diffusion restoration of cutting-edge GenAI models to automate and enhance the image restoration process. This project develops an interactive tool that allows users to upload images of damaged buildings and generate multiple possible restoration results through intelligent algorithms. By improving restoration accuracy and enabling creative exploration of stylistic variation, we aim to redefine the possibilities of cultural heritage conservation in the digital age. </p>
+
     </div>
 
     <div class="column">

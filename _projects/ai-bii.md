@@ -33,16 +33,15 @@ details: |
       <h2>Introduction</h2>
       <p>With the accumulation of natural weathering, war and human interference, many historical buildings have suffered varying degrees of damage. These defects not only hinder the protection of cultural heritage, but also affect people's understanding of the original design and style of the building. Traditional restoration methods often rely on manual judgment and drawing. Although they are effective in some cases, they also face the problems of high cost, strong subjectivity and large workload. 
 Therefore, the project uses the function of stable diffusion restoration of cutting-edge GenAI models to automate and enhance the image restoration process. This project develops an interactive tool that allows users to upload images of damaged buildings and generate multiple possible restoration results through intelligent algorithms. By improving restoration accuracy and enabling creative exploration of stylistic variation, we aim to redefine the possibilities of cultural heritage conservation in the digital age. </p>
-
     </div>
 
     <div class="column">
-      <h2>Methodology</h2>
-      <h3>AI-Driven Image Inpainting</h3>
+      <h2>Approach</h2>
+      <p>The project's development revolves around three cores: automating the image restoration process, providing customizable style transfer for creative exploration, and an intuitive and useful user interface. </p>
       <ul>
-        <li>Utilizes <strong>Stable Diffusion Inpainting</strong> models.</li>
-        <li>Supports <strong>user-guided masking</strong> for precise control.</li>
-        <li>Enables <strong>multi-output restoration</strong> based on various hypotheses.</li>
+        <li>Automatic Image Restoration: We use an advanced Stable Diffusion Inpainting model, which allows users to mark damaged areas in the image through masking tools, and combines detailed descriptions entered by users to achieve high-quality and expected image reconstruction. The model can generate multiple restoration options for each request, providing a wide range of choices. Through GPU acceleration optimization, the restoration process can be completed in real time while ensuring quality.</li>
+        <li>Customizable style transfer: The style transfer component can transform the restored images into various styles. It adopts advanced techniques such as edge detection, neural style transfer and dynamic contrast adjustment to achieve architectural sketches with grid overlays, bright watercolor effects, retro pixel art, neon-infused cyberpunk visuals and HDR-enhanced images.</li>
+        <li>User interface design: The project uses an intuitive front-end built with HTML, CSS, and JavaScript. Users can precisely select the repair area through an interactive canvas and use sliders and buttons to adjust parameters such as brush size, style intensity, and output quantity. Instant visual updates enhance the user experience, and the web-based interface is compatible with multiple devices, meeting the needs of users of different professional levels and providing a seamless operation experience.</li>
       </ul>
     </div>
   </div>

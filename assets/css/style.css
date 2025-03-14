@@ -228,11 +228,35 @@ pre {
     font-family: "Courier New", monospace;
 }
 
-/* 双栏布局 (类似论文风) */
+/* 让标题、作者、单位居中 */
+.title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.authors {
+    text-align: center;
+    font-style: italic;
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* 让正文部分对齐，防止 Markdown 解析错乱 */
+.content {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: justify;
+    line-height: 1.8;
+}
+
+/* 让双栏的间距更均匀 */
 .two-column {
     display: flex;
     justify-content: space-between;
-    gap: 20px; /* 控制两列之间的间距 */
+    gap: 40px;
 }
 
 .column {
@@ -240,6 +264,7 @@ pre {
     max-width: 48%;
     text-align: justify;
 }
+
 
 /* 让页面内容居中 */
 .container {

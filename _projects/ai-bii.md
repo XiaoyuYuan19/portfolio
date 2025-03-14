@@ -14,7 +14,6 @@ details: |
   - **Integrated Hugging Face API for inference**
 ---
 
-
 <div class="project-page">
   <div class="title">{{ page.title }}</div>
 
@@ -24,145 +23,113 @@ details: |
   </div>
 </div>
 
+---
+
 <div class="content">
   <div class="two-column">
-    <div class="column">
-      <h2>Abstract</h2>
-      <p>Historical buildings are subject to destruction due to natural disasters, war, and human intervention. 
-      This project explores <strong>generative AI (GenAI) for automatic image restoration</strong>, 
-      focusing on <strong>inpainting techniques using Stable Diffusion</strong>.</p>
-    </div>
-
     <div class="column">
       <h2>Introduction</h2>
-      <p>Many historical structures have suffered <strong>irreversible damage</strong>. Traditional restoration is costly and time-consuming. 
-      AI-driven solutions automate image restoration, making the process <strong>efficient and scalable</strong>.</p>
-    </div>
-  </div>
-</div>
-
-<h2>Methodology</h2>
-
-<div class="content">
-  <div class="two-column">
-    <div class="column">
-      <h3>1. Automatic Image Restoration</h3>
+      <h3>Why AI for Cultural Heritage Restoration?</h3>
+      <p>Restoration of ancient artifacts and structures is labor-intensive and often subject to artistic bias. 
+      AI-based solutions enable:</p>
       <ul>
-        <li>Uses <strong>Stable Diffusion Inpainting</strong> models.</li>
-        <li>Allows <strong>user-guided masking</strong> for restoration.</li>
+        <li>Automated, cost-effective restoration.</li>
+        <li>Multi-style inference for different historical perspectives.</li>
+        <li>Scalability for large-scale heritage conservation projects.</li>
       </ul>
+      <p>Thus, we propose a deep learning-based inpainting framework leveraging <strong>Stable Diffusion</strong> for restoring missing architectural details.</p>
     </div>
 
     <div class="column">
-      <h3>2. Customizable Style Transfer</h3>
+      <h2>Methodology</h2>
+      <h3>AI-Driven Image Inpainting</h3>
       <ul>
-        <li>Converts restored images into <strong>various artistic styles</strong>:</li>
+        <li>Utilizes <strong>Stable Diffusion Inpainting</strong> models.</li>
+        <li>Supports <strong>user-guided masking</strong> for precise control.</li>
+        <li>Enables <strong>multi-output restoration</strong> based on various hypotheses.</li>
+      </ul>
+
+      <h3>Multi-Style Transfer for Artistic Interpretations</h3>
+      <ul>
+        <li>Allows customization of restoration styles:</li>
         <ul>
-          <li><strong>Architectural Sketches</strong></li>
-          <li><strong>Watercolor Effects</strong></li>
+          <li>🏛 Architectural Sketches</li>
+          <li>🎨 Watercolor Adaptations</li>
+          <li>🕹 Retro Pixel-Art Recreations</li>
+          <li>🌆 Cyberpunk-Inspired Views</li>
+          <li>✨ HDR-Enhanced Restorations</li>
         </ul>
       </ul>
     </div>
   </div>
 </div>
 
+---
+
+<h2>Project Workflow</h2>
+<p>The following diagram illustrates the AI-assisted restoration process:</p>
+<p align="center">
+  <img src="https://via.placeholder.com/800x400.png?text=Workflow+Diagram" alt="Restoration Workflow">
+</p>
 
 ---
 
-## Introduction
-### Why AI for Cultural Heritage Restoration?
-Restoration of ancient artifacts and structures is labor-intensive and often subject to artistic bias. 
-AI-based solutions enable:
-- Automated, cost-effective restoration.
-- Multi-style inference for different historical perspectives.
-- Scalability for large-scale heritage conservation projects.
-
-Thus, we propose a deep learning-based inpainting framework leveraging Stable Diffusion for restoring missing architectural details.
+<h2>Demonstration Video</h2>
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=nnxlg_0Jbws" target="_blank">🎥 Watch the Project Video</a>
+</p>
 
 ---
 
-## Methodology
-### AI-Driven Image Inpainting
-- Utilizes Stable Diffusion Inpainting models.
-- Supports user-guided masking for precise control.
-- Enables multi-output restoration based on various hypotheses.
+<h2>Results & Evaluation</h2>
+<h3>Key Performance Metrics</h3>
 
-### Multi-Style Transfer for Artistic Interpretations
-- Allows customization of restoration styles:
-  - Architectural Sketches
-  - Watercolor Adaptations
-  - Retro Pixel-Art Recreations
-  - Cyberpunk-Inspired Views
-  - HDR-Enhanced Restorations
+<table>
+  <tr>
+    <th>Metric</th>
+    <th>Value</th>
+  </tr>
+  <tr>
+    <td>Images Processed</td>
+    <td>1,000+</td>
+  </tr>
+  <tr>
+    <td>Avg. Inference Time</td>
+    <td>~1.2 sec per image</td>
+  </tr>
+  <tr>
+    <td>Style Variants</td>
+    <td>5+ Restoration Modes</td>
+  </tr>
+  <tr>
+    <td>User Satisfaction</td>
+    <td>92% Positive Feedback</td>
+  </tr>
+</table>
 
-### Web-Based User Interface
-- Provides an interactive restoration tool with:
-  - Real-time inpainting previews.
-  - Style customization controls.
-  - Downloadable restoration results.
+<h3>Example Restoration Outputs</h3>
 
----
-
-## Project Workflow
-The following diagram illustrates the AI-assisted restoration process:
-
-![Restoration Workflow](https://via.placeholder.com/800x400.png?text=Workflow+Diagram)
-
----
-
-## Demonstration Video
-[Project Video](https://www.youtube.com/watch?v=nnxlg_0Jbws)
-
----
-
-## Results & Evaluation
-### Key Performance Metrics
-| Metric            | Value                  |
-|------------------|----------------------|
-| Images Processed | 1,000+                |
-| Avg. Inference Time | ~1.2 sec per image  |
-| Style Variants   | 5+ Restoration Modes  |
-| User Satisfaction | 92% Positive Feedback |
-
-### Example Restoration Outputs
-#### Cyberpunk Transformation
-![Cyberpunk Example](https://via.placeholder.com/800x400.png?text=Cyberpunk+Style+Example)
+<h4>Cyberpunk Transformation</h4>
+<p align="center">
+  <img src="https://via.placeholder.com/800x400.png?text=Cyberpunk+Style+Example" alt="Cyberpunk Example">
+</p>
 
 ---
 
-## Conclusion & Future Work
-This study highlights the potential of AI in historical conservation. 
+<h2>Conclusion & Future Work</h2>
+<p>This study highlights the potential of AI in historical conservation.</p>
 
-**Next Steps:**
-- Expand dataset and training on diverse architectural styles.  
-- Develop AR applications for immersive heritage exploration.  
-- Establish collaborations with museums and restoration experts.  
-- Release API access for public and research use.  
-
----
-
-## Get Involved
-Interested in contributing? Reach out via GitHub Issues or email.  
-GitHub Repository: [AI-BII Project](https://github.com/XiaoyuYuan19/AI-BII)
+<h3>Next Steps:</h3>
+<ul>
+  <li>Expand dataset and training on diverse architectural styles.</li>
+  <li>Develop AR applications for immersive heritage exploration.</li>
+  <li>Establish collaborations with museums and restoration experts.</li>
+  <li>Release API access for public and research use.</li>
+</ul>
 
 ---
 
-## Double-Column Format (For PDF Export)
-To enable **double-column formatting**, use the following LaTeX settings if exporting to PDF:
+<h2>Get Involved</h2>
+<p>Interested in contributing? Reach out via GitHub Issues or email.</p>
+<p>📌 GitHub Repository: <a href="https://github.com/XiaoyuYuan19/AI-BII">AI-BII Project</a></p>
 
-```latex
-\documentclass[twocolumn]{article}
-\usepackage{graphicx}
-\begin{document}
-\title{AI+BII - Image Inpainting for Cultural Heritage Restoration}
-\author{Xiaoyu Yuan, Pei Liu, Ruochen Gai}
-\maketitle
-\begin{abstract}
-Cultural heritage restoration using AI-based generative inpainting...
-\end{abstract}
-\section{Introduction}
-Traditional methods are costly, AI-based solutions...
-\end{document}
-```
-
-For GitHub Pages, Markdown does not support double-column layout natively. However, you can generate a PDF with **LaTeX** and link it here for a structured academic paper format.

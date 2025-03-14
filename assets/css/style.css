@@ -1,15 +1,12 @@
 /* 学术风格（白大褂禁欲系） */
 /* 🌟 浅色梦幻背景（白天模式）🌟 */
-@import url('https://fonts.googleapis.com/css2?family=Latin+Modern+Roman&display=swap');
-
 
 body {
     background: linear-gradient(120deg, #fefefe, #f5f7fa, #e6ecf0);
     background-attachment: fixed; 
     color: #222;
-/*     font-family: Arial, Helvetica, sans-serif;      */
+    font-family: Arial, Helvetica, sans-serif;     
 /*     font-family: "Times New Roman", Times, serif; */
-    font-family: "Latin Modern Roman", serif;
     max-width: 90vw;
     margin: 0 auto;
     padding: 20px;

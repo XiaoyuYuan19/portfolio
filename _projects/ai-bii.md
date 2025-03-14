@@ -14,6 +14,61 @@ details: |
   - **Integrated Hugging Face API for inference**
 ---
 
+---
+title: AI+BII - Building Image Inpainting for Cultural Heritage Restoration
+layout: default
+description: AI-assisted inpainting for restoring ancient architecture.
+github: https://github.com/XiaoyuYuan19/AI-BII
+youtube: https://www.youtube.com/watch?v=nnxlg_0Jbws
+url: ai-bii
+---
+
+# **{{ page.title }}**
+
+📝 *{{ page.description }}*  
+
+*Authors: Xiaoyu Yuan, Pei Liu, Ruochen Gai*  
+*University of Helsinki, 2024*  
+
+---
+
+<div class="container">
+  <div class="two-column">
+    <div class="column">
+      ## **Abstract**
+      Historical buildings are subject to destruction due to natural disasters, war, and human intervention. This project explores **generative AI (GenAI) for automatic image restoration**, focusing on **inpainting techniques using Stable Diffusion**.
+    </div>
+
+    <div class="column">
+      ## **Introduction**
+      Many historical structures have suffered **irreversible damage**. Traditional restoration is costly and time-consuming. AI-driven solutions automate image restoration, making the process **efficient and scalable**.
+    </div>
+  </div>
+</div>
+
+---
+
+## **Methodology**
+<div class="container">
+  <div class="two-column">
+    <div class="column">
+      ### **1. Automatic Image Restoration**
+      - Uses **Stable Diffusion Inpainting** models.
+      - Allows **user-guided masking** for restoration.
+    </div>
+
+    <div class="column">
+      ### **2. Customizable Style Transfer**
+      - Converts restored images into **various artistic styles**:
+        - 🏛 **Architectural Sketches**
+        - 🎨 **Watercolor Effects**
+    </div>
+  </div>
+</div>
+
+
+
+
 # AI+BII: Building Image Inpainting for Cultural Heritage Restoration
 
 **Authors:** Xiaoyu Yuan, Pei Liu, Ruochen Gai  

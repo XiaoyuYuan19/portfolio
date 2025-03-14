@@ -25,19 +25,18 @@ details: |
 
 ---
 
+## **Introduction**
 <div class="content">
   <div class="two-column">
     <div class="column">
-      <h2>Introduction</h2>
-      <h3>Why AI for Cultural Heritage Restoration?</h3>
-      <p>Restoration of ancient artifacts and structures is labor-intensive and often subject to artistic bias. 
-      AI-based solutions enable:</p>
+      <h2>Why AI for Cultural Heritage Restoration?</h2>
+      <p>Restoration of ancient artifacts and structures is labor-intensive and often subject to artistic bias. AI-based solutions enable:</p>
       <ul>
         <li>Automated, cost-effective restoration.</li>
         <li>Multi-style inference for different historical perspectives.</li>
         <li>Scalability for large-scale heritage conservation projects.</li>
       </ul>
-      <p>Thus, we propose a deep learning-based inpainting framework leveraging <strong>Stable Diffusion</strong> for restoring missing architectural details.</p>
+      <p>Thus, we propose a deep learning-based inpainting framework leveraging Stable Diffusion for restoring missing architectural details.</p>
     </div>
 
     <div class="column">
@@ -48,17 +47,34 @@ details: |
         <li>Supports <strong>user-guided masking</strong> for precise control.</li>
         <li>Enables <strong>multi-output restoration</strong> based on various hypotheses.</li>
       </ul>
+    </div>
+  </div>
+</div>
 
+---
+
+## **Multi-Style Transfer & User Interface**
+<div class="content">
+  <div class="two-column">
+    <div class="column">
       <h3>Multi-Style Transfer for Artistic Interpretations</h3>
+      <p>Allows customization of restoration styles:</p>
       <ul>
-        <li>Allows customization of restoration styles:</li>
-        <ul>
-          <li>🏛 Architectural Sketches</li>
-          <li>🎨 Watercolor Adaptations</li>
-          <li>🕹 Retro Pixel-Art Recreations</li>
-          <li>🌆 Cyberpunk-Inspired Views</li>
-          <li>✨ HDR-Enhanced Restorations</li>
-        </ul>
+        <li>🏛 <strong>Architectural Sketches</strong></li>
+        <li>🎨 <strong>Watercolor Adaptations</strong></li>
+        <li>🕹 <strong>Retro Pixel-Art Recreations</strong></li>
+        <li>🌆 <strong>Cyberpunk-Inspired Views</strong></li>
+        <li>✨ <strong>HDR-Enhanced Restorations</strong></li>
+      </ul>
+    </div>
+
+    <div class="column">
+      <h3>Web-Based User Interface</h3>
+      <p>Provides an interactive restoration tool with:</p>
+      <ul>
+        <li>Real-time inpainting previews.</li>
+        <li>Style customization controls.</li>
+        <li>Downloadable restoration results.</li>
       </ul>
     </div>
   </div>
@@ -66,70 +82,86 @@ details: |
 
 ---
 
-<h2>Project Workflow</h2>
-<p>The following diagram illustrates the AI-assisted restoration process:</p>
+## **Project Workflow**
 <p align="center">
   <img src="https://via.placeholder.com/800x400.png?text=Workflow+Diagram" alt="Restoration Workflow">
 </p>
 
 ---
 
-<h2>Demonstration Video</h2>
+## **Demonstration Video**
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=nnxlg_0Jbws" target="_blank">🎥 Watch the Project Video</a>
+  <a href="https://www.youtube.com/watch?v=nnxlg_0Jbws">🎥 Watch the Project Video</a>
 </p>
 
 ---
 
-<h2>Results & Evaluation</h2>
-<h3>Key Performance Metrics</h3>
+## **Results & Evaluation**
+<div class="content">
+  <div class="two-column">
+    <div class="column">
+      <h3>Key Performance Metrics</h3>
+      <table>
+        <tr>
+          <th>Metric</th>
+          <th>Value</th>
+        </tr>
+        <tr>
+          <td>Images Processed</td>
+          <td>1,000+</td>
+        </tr>
+        <tr>
+          <td>Avg. Inference Time</td>
+          <td>~1.2 sec per image</td>
+        </tr>
+        <tr>
+          <td>Style Variants</td>
+          <td>5+ Restoration Modes</td>
+        </tr>
+        <tr>
+          <td>User Satisfaction</td>
+          <td>92% Positive Feedback</td>
+        </tr>
+      </table>
+    </div>
 
-<table>
-  <tr>
-    <th>Metric</th>
-    <th>Value</th>
-  </tr>
-  <tr>
-    <td>Images Processed</td>
-    <td>1,000+</td>
-  </tr>
-  <tr>
-    <td>Avg. Inference Time</td>
-    <td>~1.2 sec per image</td>
-  </tr>
-  <tr>
-    <td>Style Variants</td>
-    <td>5+ Restoration Modes</td>
-  </tr>
-  <tr>
-    <td>User Satisfaction</td>
-    <td>92% Positive Feedback</td>
-  </tr>
-</table>
+    <div class="column">
+      <h3>Example Restoration Outputs</h3>
+      <h4>Cyberpunk Transformation</h4>
+      <p align="center">
+        <img src="https://via.placeholder.com/800x400.png?text=Cyberpunk+Style+Example" alt="Cyberpunk Example">
+      </p>
+    </div>
+  </div>
+</div>
 
-<h3>Example Restoration Outputs</h3>
+---
 
-<h4>Cyberpunk Transformation</h4>
+## **Conclusion & Future Work**
+<div class="content">
+  <div class="two-column">
+    <div class="column">
+      <p>This study highlights the potential of AI in historical conservation.</p>
+      <h4>Next Steps:</h4>
+      <ul>
+        <li>Expand dataset and training on diverse architectural styles.</li>
+        <li>Develop AR applications for immersive heritage exploration.</li>
+      </ul>
+    </div>
+
+    <div class="column">
+      <ul>
+        <li>Establish collaborations with museums and restoration experts.</li>
+        <li>Release API access for public and research use.</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+---
+
+## **Get Involved**
 <p align="center">
-  <img src="https://via.placeholder.com/800x400.png?text=Cyberpunk+Style+Example" alt="Cyberpunk Example">
+  Interested in contributing? Reach out via <a href="https://github.com/XiaoyuYuan19/AI-BII/issues">GitHub Issues</a> or email.  
+  <br>📌 GitHub Repository: <a href="https://github.com/XiaoyuYuan19/AI-BII">AI-BII Project</a>
 </p>
-
----
-
-<h2>Conclusion & Future Work</h2>
-<p>This study highlights the potential of AI in historical conservation.</p>
-
-<h3>Next Steps:</h3>
-<ul>
-  <li>Expand dataset and training on diverse architectural styles.</li>
-  <li>Develop AR applications for immersive heritage exploration.</li>
-  <li>Establish collaborations with museums and restoration experts.</li>
-  <li>Release API access for public and research use.</li>
-</ul>
-
----
-
-<h2>Get Involved</h2>
-<p>Interested in contributing? Reach out via GitHub Issues or email.</p>
-<p>📌 GitHub Repository: <a href="https://github.com/XiaoyuYuan19/AI-BII">AI-BII Project</a></p>
-

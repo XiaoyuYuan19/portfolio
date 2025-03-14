@@ -23,6 +23,7 @@ details: |
   </div>
 </div>
 
+**[GitHub]({{ page.github }})** | 🎥 **[YouTube]({{ page.youtube }})**
 ---
 
 <div class="content">

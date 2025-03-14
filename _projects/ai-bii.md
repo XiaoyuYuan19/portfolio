@@ -24,21 +24,48 @@ details: |
   </div>
 </div>
 
+<div class="content">
+  <div class="two-column">
+    <div class="column">
+      <h2>Abstract</h2>
+      <p>Historical buildings are subject to destruction due to natural disasters, war, and human intervention. 
+      This project explores <strong>generative AI (GenAI) for automatic image restoration</strong>, 
+      focusing on <strong>inpainting techniques using Stable Diffusion</strong>.</p>
+    </div>
 
+    <div class="column">
+      <h2>Introduction</h2>
+      <p>Many historical structures have suffered <strong>irreversible damage</strong>. Traditional restoration is costly and time-consuming. 
+      AI-driven solutions automate image restoration, making the process <strong>efficient and scalable</strong>.</p>
+    </div>
+  </div>
+</div>
 
-# AI+BII: Building Image Inpainting for Cultural Heritage Restoration
+<h2>Methodology</h2>
 
-**Authors:** Xiaoyu Yuan, Pei Liu, Ruochen Gai  
-**Affiliation:** University of Helsinki, 2024
+<div class="content">
+  <div class="two-column">
+    <div class="column">
+      <h3>1. Automatic Image Restoration</h3>
+      <ul>
+        <li>Uses <strong>Stable Diffusion Inpainting</strong> models.</li>
+        <li>Allows <strong>user-guided masking</strong> for restoration.</li>
+      </ul>
+    </div>
 
-## Abstract
-Cultural heritage faces irreversible loss due to time, war, and environmental factors. Traditional restoration methods are costly, time-consuming, and require expert intervention. In this work, we introduce AI-based generative inpainting to restore and reimagine historical architecture.
+    <div class="column">
+      <h3>2. Customizable Style Transfer</h3>
+      <ul>
+        <li>Converts restored images into <strong>various artistic styles</strong>:</li>
+        <ul>
+          <li><strong>Architectural Sketches</strong></li>
+          <li><strong>Watercolor Effects</strong></li>
+        </ul>
+      </ul>
+    </div>
+  </div>
+</div>
 
-**Key Contributions:**
-- AI-driven inpainting using Stable Diffusion for historical image restoration.
-- Hugging Face API integration for cloud-based inference.
-- Over 1,000+ historical images processed with high accuracy.
-- Multi-style reconstruction enabling artistic flexibility.
 
 ---
 

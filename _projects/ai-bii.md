@@ -46,14 +46,3 @@ Therefore, the project uses the function of stable diffusion restoration of cutt
     </div>
   </div>
 </div>
-
-## **Demonstration Video**
-<p align="center">
-  <a href="https://www.youtube.com/watch?v=nnxlg_0Jbws">🎥 Watch the Project Video</a>
-</p>
-
-## **Get Involved**
-<p align="center">
-  Interested in contributing? Reach out via <a href="https://github.com/XiaoyuYuan19/AI-BII/issues">GitHub Issues</a> or email.  
-  <br>📌 GitHub Repository: <a href="https://github.com/XiaoyuYuan19/AI-BII">AI-BII Project</a>
-</p>

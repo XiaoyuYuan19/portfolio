@@ -20,7 +20,7 @@ details: |
   <div class="authors">
       <p>Authors: Xiaoyu Yuan, Pei Liu, Ruochen Gai</p>
       <p>University of Helsinki, 2024</p>
-      **[GitHub]({{ page.github }})** | **[YouTube]({{ page.youtube }})**
+      <a [GitHub] href="https://github.com/XiaoyuYuan19/AI-BII"/> | **[YouTube]({{ page.youtube }})
   </div>
 </div>
 

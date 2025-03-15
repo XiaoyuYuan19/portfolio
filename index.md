@@ -40,6 +40,7 @@ University of Oulu, Finland    **Bachelor in Software Engineering** *(Double Deg
 {{ project.description }}  
 [GitHub]({{ project.github }}) | 🎥 [YouTube]({{ project.youtube }})  
 
+{% endfor %}
 
 ---
 

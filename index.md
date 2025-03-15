@@ -34,11 +34,12 @@ I am a researcher in **Artificial Intelligence, OCR, and Deep Learning**, curren
 ---
 
 ## Projects
-**Ancient OCR** - AI-driven text recognition for historical manuscripts  
-**Medical SLAM** - Autonomous AI-assisted navigation for endoscopy  
-**Cultural Heritage Restoration** - Neural networks for enhancing damaged texts  
 
-[More Projects](projects/)
+{% for project in site.projects %}
+## [{{ project.title }}]({{ project.url | relative_url }})
+{{ project.description }}  
+[GitHub]({{ project.github }}) | 🎥 [YouTube]({{ project.youtube }})  
+
 
 ---
 

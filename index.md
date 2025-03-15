@@ -22,7 +22,7 @@ University of Helsinki, Finland  ——  **Master in Computer Science** *(Track:
 - Aug. 2023 – Jun. 2025 **GPA: 4.24**
 
 University of Oulu, Finland  ——  **Bachelor in Software Engineering** *(Double Degree with Nanjing Institute of Technology)*
-- Aug. 2019 – Jun. 2023 **GPA: 4.01**
+- Aug. 2019 – Jun. 2023    **GPA: 4.01**
 
 
 ---

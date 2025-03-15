@@ -11,10 +11,10 @@ Researching **OCR for ancient scripts, AI-assisted restoration, and medical SLAM
 ---
 
 ## About Me
+
 ![Profile Picture](/assets/images/graduation.jpg){: width="200px" style="border-radius: 10px; float: left; margin-right: 15px;"}  
 I am a researcher in **Artificial Intelligence, OCR, and Deep Learning**, currently pursuing a Master's degree at the **University of Helsinki**. My research focuses on leveraging **machine learning** to analyze and restore ancient texts, and applying AI in **medical SLAM** for autonomous navigation.
 
----
 
 ## Education  
 
@@ -22,9 +22,8 @@ University of Helsinki, Finland | Master in Computer Science *(Track: Algorithm)
 University of Oulu, Finland | Bachelor in Software Engineering *(Double Degree with Nanjing Institute of Technology)* | Aug. 2019 – Jun. 2023 | GPA: 4.01
 
 
----
-
 ## Research Interests
+
 **Machine Learning** – Deep Learning, Transformer Models  
 **OCR & NLP** – Text Recognition, Historical Document Processing  
 **Computer Vision** – Image Restoration, 3D Reconstruction  

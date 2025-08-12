@@ -5,9 +5,11 @@ title: "Xiaoyu Yuan | AI Researcher"
 
 ## About Me
 
-I am a researcher passionate about building **Trustworthy and Explainable AI**. My journey has taken me from deciphering ancient scripts with **Transformer-based OCR** to pioneering **high-precision visual SLAM for medical navigation**. These experiences have solidified my focus on the critical intersection of AI safety, reliability, and human-AI interaction.
+I am a researcher driven by a fascination with building intelligent systems that are both powerful and reliable. My journey began with a broad curiosity in AI and has since converged on the critical fields of **Trustworthy AI**, **LLM Alignment**, and **Human-in-the-Loop systems**.
 
-Currently, I am a Master's student in Computer Science at the **University of Helsinki**, where I was awarded a full scholarship. My work explores how to make AI systems more robust and interpretable, particularly in high-stakes domains. I am actively seeking a PhD position where I can contribute to advancing the methodologies for safe and reliable AI.
+My hands-on experience ranges from developing **Transformer-based OCR** for ancient scripts to pioneering **Visual SLAM** for medical navigation. These projects taught me that the true challenge isn't just making AI work, but making it work *safely* and *transparently*. This realization is what fuels my current focus on **Reinforcement Learning from Human Feedback (RLHF)** and its alternatives, like DPO.
+
+Currently, I am a Master's student in Computer Science at the **University of Helsinki**, supported by a full scholarship. I am actively seeking a PhD position where I can dedicate myself to advancing the methodologies for creating AI systems that are not only capable, but also fundamentally aligned with human values.
 
 ---
 ### Education

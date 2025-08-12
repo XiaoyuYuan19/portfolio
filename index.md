@@ -12,11 +12,13 @@ Currently, I am a Master's student in Computer Science at the **University of He
 ---
 ### Education
 
-**University of Helsinki**, Finland — *Master in Computer Science* — *GPA: 4.38*
+**University of Helsinki**, Finland 
+* *Master in Computer Science* — *GPA: 4.38*
 * **Track:** Algorithms and Machine Learning
 * *Aug. 2023 – Jun. 2025* 
 
-**University of Oulu**, Finland & **Nanjing Institute of Technology**, China — *Bachelor in Software Engineering (Double Degree)* — *GPA: 4.01*
+**University of Oulu**, Finland & **Nanjing Institute of Technology**, China 
+* *Bachelor in Software Engineering (Double Degree)* — *GPA: 4.01*
 * *Aug. 2019 – Jun. 2023*  
 
 ---

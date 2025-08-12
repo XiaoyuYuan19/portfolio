@@ -21,3 +21,4 @@ title: "Projects | Xiaoyu Yuan"
 #### **Enhancement Proposal for PANNZER via Protein Language Models**
 * Performed a literature-based analysis of the PANNZER protein function prediction pipeline.
 * Proposed a novel research direction integrating **Transformer-based protein language models (e.g., ProtBERT, ESM)** to enhance performance, and discussed these ideas with the original authors.
+  

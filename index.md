@@ -3,7 +3,7 @@
 
 <p align="center">
 <a href="mailto:xiaoyuyuan19@gmail.com">📧 Email</a> &nbsp;&nbsp;•&nbsp;&nbsp;
-<a href="https://xiaoyuyuan19.github.io/portfolio/">🌐 Portfolio</a> &nbsp;&nbsp;•&nbsp;&nbsp;
+<a href="https://xiaoyuyuan19.github.io/p/">🌐 Portfolio</a> &nbsp;&nbsp;•&nbsp;&nbsp;
 <a href="https://github.com/XiaoyuYuan19">🐈 GitHub</a> &nbsp;&nbsp;•&nbsp;&nbsp;
 <a href="https://www.linkedin.com/in/xiaoyuyuan19/">🔗 LinkedIn</a>
 </p>

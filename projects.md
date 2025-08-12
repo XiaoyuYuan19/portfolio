@@ -39,6 +39,6 @@ title: "Projects | Xiaoyu Yuan"
 ### Other Projects
 
 * **Sedimentological NER based on CRF & BiLSTM-CRF:** Developed a NER system to extract entities from scientific literature, winning **1st Prize** at the "Prospective Cup" Data Challenge (CENet 2022).
-* **AI+BII: Generative AI for Architectural Image Inpainting:** Designed a Stable Diffusion-based inpainting system to reconstruct historical architecture, deployed on Hugging Face Spaces. [YouTube Demo](https://www.youtube.com/watch?v=nnxlg_0Jbws) | [GitHub](https://github.com/XiaoyuYuan19/AI-BII)
-* **DSPaper Universe Platform:** Created an interactive graph platform to visualize citation networks and explore academic literature. [YouTube Demo](https://www.youtube.com/watch?v=vBVPZlLWp8o) | [GitHub](https://github.com/XiaoyuYuan19/DSPaperUniverse)
+* **AI+BII: Generative AI for Architectural Image Inpainting:** Designed a Stable Diffusion-based inpainting system to reconstruct historical architecture, deployed on Hugging Face Spaces. [YouTube Demo](https://www.youtube.com/watch?v=nnxlg_0Jbws)  [GitHub](https://github.com/XiaoyuYuan19/AI-BII)
+* **DSPaper Universe Platform:** Created an interactive graph platform to visualize citation networks and explore academic literature. [YouTube Demo](https://www.youtube.com/watch?v=vBVPZlLWp8o)  [GitHub](https://github.com/XiaoyuYuan19/DSPaperUniverse)
 * **Rule-Based Conversational Agent with RASA:** Led the design of a RASA-based dialogue agent for travel planning, including NLU pipeline development and dialogue management.

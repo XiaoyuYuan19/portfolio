@@ -9,7 +9,7 @@ I am a researcher driven by a fascination with building intelligent systems that
 
 My hands-on experience ranges from developing **Transformer-based OCR** for ancient scripts to pioneering **Visual SLAM** for medical navigation. These projects taught me that the true challenge isn't just making AI work, but making it work *safely* and *transparently*. This realization is what fuels my current focus on **Reinforcement Learning from Human Feedback (RLHF)** and its alternatives, like DPO.
 
-Currently, I am a Master's student in Computer Science at the **University of Helsinki**, supported by a full scholarship. I am actively seeking a PhD position where I can dedicate myself to advancing the methodologies for creating AI systems that are not only capable, but also fundamentally aligned with human values.
+Currently, I am actively seeking a PhD position where I can dedicate myself to advancing the methodologies for creating AI systems that are not only capable, but also fundamentally aligned with human values.
 
 ---
 ### Education

@@ -12,20 +12,20 @@ Currently, I am a Master's student in Computer Science at the **University of He
 ---
 ### Education
 
-* **University of Helsinki**, Finland — *Master in Computer Science*
-    * **Track:** Algorithms and Machine Learning
-    * *Aug. 2023 – Jun. 2025* | *GPA: 4.38*
+**University of Helsinki**, Finland — *Master in Computer Science*
+* **Track:** Algorithms and Machine Learning
+* *Aug. 2023 – Jun. 2025* | *GPA: 4.38*
 
-* **University of Oulu**, Finland & **Nanjing Institute of Technology**, China — *Bachelor in Software Engineering (Double Degree)*
-    * *Aug. 2019 – Jun. 2023* | *GPA: 4.01*
+**University of Oulu**, Finland & **Nanjing Institute of Technology**, China — *Bachelor in Software Engineering (Double Degree)*
+* *Aug. 2019 – Jun. 2023* | *GPA: 4.01*
 
 ---
 
 ### Work Experience
 
-* **Human-AI RLHF Evaluation Tasker (Freelance)** | *Outlier.ai* | *Jan. 2024 – Present*
-    * Specialized in evaluating Large Language Model (LLM) outputs, focusing on **hallucination detection, reward modeling, and prompt refinement** for AI safety pipelines.
-    * Contributed to RLHF and DPO alignment processes by assessing weak supervision signals from human feedback.
+**Human-AI RLHF Evaluation Tasker (Freelance)** | *Outlier.ai* | *Jan. 2024 – Present*
+* Specialized in evaluating Large Language Model (LLM) outputs, focusing on **hallucination detection, reward modeling, and prompt refinement** for AI safety pipelines.
+* Contributed to RLHF and DPO alignment processes by assessing weak supervision signals from human feedback.
 
-* **Software Test Engineer Intern** | *Nanjing Tongdahai Information Technology Co., Ltd.* | *Jun. 2021 – Jul. 2021*
-    * Conducted black-box testing and analyzed over 2,000 user feedback entries to improve product quality.
+**Software Test Engineer Intern** | *Nanjing Tongdahai Information Technology Co., Ltd.* | *Jun. 2021 – Jul. 2021*
+* Conducted black-box testing and analyzed over 2,000 user feedback entries to improve product quality.

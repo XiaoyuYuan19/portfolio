@@ -7,13 +7,12 @@
     <title>{{ page.title | default: site.title }}</title>
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
     <style>
-      /* 这里是哥哥加的魔法，让导航栏更好看 */
       header nav ul {
         list-style: none;
         padding: 0;
       }
       header nav li {
-        margin: 10px 0;
+        margin: 5px 0;
       }
       header nav a {
         font-size: 1.1em;
@@ -30,10 +29,11 @@
   <body>
     <div class="wrapper">
       <header>
-        <img src="{{ "/assets/images/graduation.jpg" | relative_url }}" alt="Xiaoyu Yuan's Picture" style="width: 150px; height: 150px; border-radius: 50%; margin: 0 auto 1rem; display: block;">
         
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: "Xiaoyu Yuan" }}</a></h1>
         <p>{{ site.description | default: "AI Researcher" }}</p>
+        
+        <img src="{{ "/assets/images/graduation.jpg" | relative_url }}" alt="Xiaoyu Yuan's Picture" style="width: 150px; height: 150px; border-radius: 50%; margin: 0 auto 1rem; display: block;">
         
         <nav>
           <ul>

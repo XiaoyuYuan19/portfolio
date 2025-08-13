@@ -12,7 +12,7 @@ As I finalize my Master's degree in Computer Science at the **University of Hels
 ---
 ### Education
 
-I am completing my **Master's in Computer Science** at the **University of Helsinki**, focusing on the Algorithms and Machine Learning track (GPA: 4.38). This follows my **Bachelor's in Software Engineering**, a double degree program jointly conferred by the **University of Oulu** and the **Nanjing Institute of Technology** (GPA: 4.01), which laid a solid foundation in both theoretical principles and practical software development.
+I am completing my **Master's in Computer Science** at the **University of Helsinki** (2023 - 2025), focusing on the Algorithms and Machine Learning track (GPA: 4.38). This follows my **Bachelor's in Software Engineering** (2019 - 2023), a double degree program jointly conferred by the **University of Oulu** and the **Nanjing Institute of Technology** (GPA: 4.01), which laid a solid foundation in both theoretical principles and practical software development.
 
 ---
 

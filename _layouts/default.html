@@ -30,8 +30,11 @@
     <div class="wrapper">
       <header>
         
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: "Xiaoyu Yuan" }}</a> <span onclick="document.getElementById('name-audio').play()" style="cursor: pointer;">🔊</span></h1>
-<audio id="name-audio" src="{{ "/assets/audio/xiaoyu_yuan.mp3" | relative_url }}"></audio>
+        <h1>
+          <span onclick="document.getElementById('name-audio').play()" style="cursor: pointer;">🔊</span>
+          <a href="{{ "/" | absolute_url }}">{{ site.title | default: "Xiaoyu Yuan" }}</a> 
+        </h1>        
+        <audio id="name-audio" src="{{ "/assets/audio/xiaoyu_yuan.mp3" | relative_url }}"></audio>
         
         <p>{{ site.description | default: "AI Researcher" }}</p>
         

@@ -3,7 +3,8 @@ layout: default
 title: "Xiaoyu Yuan | AI Researcher"
 ---
 
-## About Me
+## Xiaoyu Yuan (袁筱钰) <span onclick="document.getElementById('name-audio-main').play()" style="cursor: pointer;">🔊</span>
+<audio id="name-audio-main" src="{{ "/assets/audio/xiaoyu_yuan.mp3" | relative_url }}"></audio>
 
 I am Xiaoyu Yuan (袁筱钰), a researcher passionate about building **Trustworthy and Explainable AI**. My journey began with a broad curiosity in AI and has since converged on the critical fields of **Trustworthy AI**, **LLM Alignment**, and **Human-in-the-Loop systems**. My hands-on experience ranges from developing **Transformer-based OCR** for ancient scripts to pioneering **Visual SLAM** for medical navigation. These projects taught me that the true challenge isn't just making AI work, but making it work *safely* and *transparently*. This realization is what fuels my current focus on **Reinforcement Learning from Human Feedback (RLHF)** and its alternatives, like DPO.
 

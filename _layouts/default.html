@@ -30,9 +30,9 @@
     <div class="wrapper">
       <header>
         
-        <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: "Xiaoyu Yuan" }}</a></h1>
         <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: "Xiaoyu Yuan" }}</a> <span onclick="document.getElementById('name-audio').play()" style="cursor: pointer;">🔊</span></h1>
 <audio id="name-audio" src="{{ "/assets/audio/xiaoyu_yuan.mp3" | relative_url }}"></audio>
+        
         <p>{{ site.description | default: "AI Researcher" }}</p>
         
         <img src="{{ "/assets/images/graduation.jpg" | relative_url }}" alt="Xiaoyu Yuan's Picture" style="width: 150px; height: 150px; border-radius: 50%; margin: 0 auto 1rem; display: block; object-fit: cover;">

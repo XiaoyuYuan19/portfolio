@@ -28,20 +28,11 @@ I am Xiaoyu Yuan <span onclick="document.getElementById('name-audio-main').play(
 
 ## Publications
 
-<div class="pub-item">
-<strong>X. Yuan, N. Heikkala, T. Törmänen, H. Järvenoja, G. Zhao, & H. Chen. (2026). MOTOR-Bench: A Real-world Dataset and Multi-agent Framework for Zero-shot Human Mental State Understanding</strong>
-<em>In Proc. of the IEEE/CVF Conf. on Computer Vision and Pattern Recognition Workshops <a href="https://openaccess.thecvf.com/content/CVPR2026W/AI4RWC/papers/Yuan_MOTOR-Bench_A_Real-world_Dataset_and_Multi-agent_Framework_for_Zero-shot_Human_CVPRW_2026_paper.pdf" target="_blank"><strong>CVPRW 2026</strong></a>, pp. 9431–9439. <strong>(Oral Presentation)</strong></em>
-</div>
+**X. Yuan**, N. Heikkala, T. Törmänen, H. Järvenoja, G. Zhao, & H. Chen. (2026). **MOTOR-Bench: A Real-world Dataset and Multi-agent Framework for Zero-shot Human Mental State Understanding**. *In Proc. of the IEEE/CVF Conf. on Computer Vision and Pattern Recognition Workshops* [**CVPRW 2026**](https://openaccess.thecvf.com/content/CVPR2026W/AI4RWC/papers/Yuan_MOTOR-Bench_A_Real-world_Dataset_and_Multi-agent_Framework_for_Zero-shot_Human_CVPRW_2026_paper.pdf), pp. 9431–9439. **(Oral Presentation)**
 
-<div class="pub-item">
-<strong>X. Yuan, Z. Zhang, Y. Sun, Z. Xue, X. Shao, & X. Huang. (2023). A new database of Houma Alliance Book ancient handwritten characters and its baseline algorithm</strong>
-<em>In Proc. of the 8th Int. Conf. on Multimedia Systems and Signal Processing (ICMSSP '23). ACM. <a href="https://doi.org/10.1145/3613917.3613923" target="_blank">DOI: 10.1145/3613917.3613923</a></em>
-</div>
+**X. Yuan**, Z. Zhang, Y. Sun, Z. Xue, X. Shao, & X. Huang. (2023). **A new database of Houma Alliance Book ancient handwritten characters and its baseline algorithm**. *In Proc. of the 8th Int. Conf. on Multimedia Systems and Signal Processing (ICMSSP '23)*. ACM. [DOI: 10.1145/3613917.3613923](https://doi.org/10.1145/3613917.3613923)
 
-<div class="pub-item">
-<strong>Z. Zhang, X. Huang, X. Yuan, & Y. Sun. (2023). HABFD: Houma Alliance Book facsimiles database</strong>
-<em>In Proc. of the IEEE Int. Conf. on Image, Vision and Computing (ICIVC '23). IEEE. <a href="https://doi.org/10.1109/icivc58118.2023.10269984" target="_blank">DOI: 10.1109/icivc58118.2023.10269984</a></em>
-</div>
+Z. Zhang, X. Huang, **X. Yuan**, & Y. Sun. (2023). **HABFD: Houma Alliance Book facsimiles database**. *In Proc. of the IEEE Int. Conf. on Image, Vision and Computing (ICIVC '23)*. IEEE. [DOI: 10.1109/icivc58118.2023.10269984](https://doi.org/10.1109/icivc58118.2023.10269984)
 
 ---
 

@@ -30,7 +30,7 @@ I am Xiaoyu Yuan <span onclick="document.getElementById('name-audio-main').play(
 
 <div class="pub-item">
 <strong>X. Yuan, N. Heikkala, T. Törmänen, H. Järvenoja, G. Zhao, & H. Chen. (2026). MOTOR-Bench: A Real-world Dataset and Multi-agent Framework for Zero-shot Human Mental State Understanding</strong>
-<em>In Proc. of the IEEE/CVF Conf. on Computer Vision and Pattern Recognition Workshops <a href="https://cvprw2026.github.io/" target="_blank"><strong>CVPRW 2026</strong></a>, pp. 9431–9439. <strong>(Oral Presentation)</strong></em>
+<em>In Proc. of the IEEE/CVF Conf. on Computer Vision and Pattern Recognition Workshops <a href="https://openaccess.thecvf.com/content/CVPR2026W/AI4RWC/papers/Yuan_MOTOR-Bench_A_Real-world_Dataset_and_Multi-agent_Framework_for_Zero-shot_Human_CVPRW_2026_paper.pdf" target="_blank"><strong>CVPRW 2026</strong></a>, pp. 9431–9439. <strong>(Oral Presentation)</strong></em>
 </div>
 
 <div class="pub-item">

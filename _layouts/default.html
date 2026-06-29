@@ -5,7 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>{{ page.title | default: site.title }}</title>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <meta name="description" content="Xiaoyu Yuan (袁筱钰) — PhD student in Computer Science at the University of Oulu, researching Embodied AI, Neural Decoding, and Multi-Agent Systems.">
+    <meta name="author" content="Xiaoyu Yuan">
+    <!-- Open Graph / social preview -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Xiaoyu Yuan | PhD Student, University of Oulu">
+    <meta property="og:description" content="PhD student researching Embodied AI, Neural Decoding, and Multi-Agent Systems at the University of Oulu.">
+    <meta property="og:image" content="{{ "/assets/images/profile.jpg" | absolute_url }}">
+    <meta name="twitter:card" content="summary">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
     <style>
       * {
         margin: 0;
@@ -200,7 +208,7 @@
       }
 
       a:hover {
-        color: #059669;
+        color: #0052a3;
         text-decoration: underline;
       }
 
@@ -224,32 +232,6 @@
         text-decoration: none;
       }
 
-      /* Publications styling */
-      .pub-item {
-        margin-bottom: 22px;
-        padding-bottom: 18px;
-        border-bottom: 1px solid #f0f0f0;
-      }
-
-      .pub-item:last-child {
-        border-bottom: none;
-        margin-bottom: 0;
-        padding-bottom: 0;
-      }
-
-      .pub-item strong {
-        display: block;
-        margin-bottom: 6px;
-        line-height: 1.6;
-        font-size: 1.02em;
-      }
-
-      .pub-item em {
-        display: block;
-        margin-top: 4px;
-        font-size: 0.95em;
-      }
-
       hr {
         border: none;
         border-top: 1px solid #e5e5e5;
@@ -269,17 +251,6 @@
 
       footer small {
         font-size: inherit;
-      }
-
-      /* Audio Icon */
-      .audio-btn {
-        cursor: pointer;
-        font-size: 0.9em;
-        transition: opacity 0.2s;
-      }
-
-      .audio-btn:hover {
-        opacity: 0.7;
       }
 
       /* Responsive Design */
@@ -429,7 +400,7 @@
       <section>
         <h2>Patents & Copyrights</h2>
         <ul>
-          <li><strong>X. Yuan</strong>, Z. Zhang, X. Huang. (2023). <strong>Method for ancient Chinese character sample collection, detection and recognition based on optimized deep network</strong>. <em>Chinese Patent</em> <a href="https://patents.google.com/patent/CN117095401A/en?oq=CN202311008755">CN202311008755.1</a></li>
+          <li><strong>X. Yuan</strong>, Z. Zhang, X. Huang. (2023). <strong>Method for ancient Chinese character sample collection, detection and recognition based on optimized deep network</strong>. <em>Chinese Patent No. CN202311008755.1</em> <a href="https://patents.google.com/patent/CN117095401A/en?oq=CN202311008755" target="_blank" class="pdf-link">[Patent]</a></li>
           <li><strong>X. Yuan</strong>, Z. Zhang, X. Huang, et al. (2022). <strong>Houma Alliance Book Intelligent Recognition Platform v1.0</strong>. <em>Software Copyright Registration</em> No. 2022SR1030217, National Copyright Administration of China.</li>
         </ul>
       </section>
